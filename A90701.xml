@@ -1,0 +1,713 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hierusalem bedewed with teares. A sermon preached at St. Mary Woolnoth London, upon the fast-day, Martii, 30. 1642. By John Pigott Curate of S. Sepulchers.</title>
+            <author>Pigot, John.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1642</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 103 KB of XML-encoded text transcribed from 22 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A90701</idno>
+            <idno type="STC">Wing P2221</idno>
+            <idno type="STC">Thomason E147_11</idno>
+            <idno type="STC">ESTC R1223</idno>
+            <idno type="EEBO-CITATION">99859243</idno>
+            <idno type="PROQUEST">99859243</idno>
+            <idno type="VID">111314</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A90701)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 111314)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 26:E147[11])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Hierusalem bedewed with teares. A sermon preached at St. Mary Woolnoth London, upon the fast-day, Martii, 30. 1642. By John Pigott Curate of S. Sepulchers.</title>
+                  <author>Pigot, John.</author>
+               </titleStmt>
+               <extent>[4], 37, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by E. Griffin, and are to be sold by Iohn Wright in the old Bailey,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1642.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  N.T. --  Luke XIX, 41-44 --  Sermons --  Early works to 1800.</term>
+               <term>Fast-day sermons --  Early works to 1800.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-01</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2011-01</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:111314:1" rendition="simple:additions"/>
+            <p>HIERUSALEM BEDEWED WITH TEARES.</p>
+            <p>A Sermon preached at S<hi rend="sup">t</hi>. MARY WOOLNOTH London, upon the Faſt-day, <hi>Martii.</hi> 30. 1642.</p>
+            <p>By John PIGOTT Curate of S. <hi>Sepulchers.</hi>
+            </p>
+            <q>
+               <p>Vae mihi ſi non Evangelizavero.</p>
+               <bibl>1 COR. 9.16.</bibl>
+            </q>
+            <q>
+               <p>Rejoyce not over mee O mine enemy, when I fall I ſhall riſe; when I ſit in darkeneſſe, the Lord ſhall be a light unto me.</p>
+               <bibl>Micah. <hi>7.8.</hi>
+               </bibl>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>E. Griffin,</hi> and are to be ſold by <hi>Iohn Wright</hi> in the old <hi>Bailey.</hi> 1642.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:111314:2"/>
+            <pb facs="tcp:111314:2"/>
+            <head>To my beloved Friends, and Neighbours the Pariſhioners of S.
+<hi>Sepulchers London.</hi>
+            </head>
+            <p>DEarely beloved and longed for,<note place="margin">Phil. 4. 1. Rom.
+9.1.</note> my joy and crown of rejoycing, I ſpeake the truth, in Chriſt and lye not, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, my conſcience alſo bearing me witneſſe, that my hearty deſire for you all is, that you may be ſaved,<note place="margin">Ch. 10. 1. Acts 20.20.</note> and that to this end I have both publikely, and from houſe to houſe teſtified both to ſmall and great, to all ſorts of people repentance towards God, and faith towards our Lord Ieſus Chriſt. How weighty a burden hath layen upon my Shoulders, and how long and with what cheerefulneſſe I have borne it, is not unknown to you, neither doe I yet ſhrinke from it, or ſinke under it. I have often ſaid with S. <hi>Paul,</hi> you are in my heart to live and to dye with you
+<hi>2 Cor. 7.3.</hi> Though (as the ſame Apoſtle in the ſame Epiſtle complaineth, <hi>2 Cor. 12.15.</hi>) The more aboundantly I love you, the leſſe I be loved of ſome among you: but I intend not to accuſe my owne Nation, neither is it equall that J ſhould charge the petulant miſcarriages of a few prejudicate Spirits upon a whole pariſh, wherein I have found ſo much true hearted affection, ſo many reall and royall expreſſions of love, and wherein there are many (J ſpeake it with comfort and thankefulneſſe) that if it were poſſible, would even pluck out their owne eyes to doe me good, as <hi>S. Paul</hi> magnifieth the love of his
+<hi>Galatians 4.15.</hi>
+            </p>
+            <p>And now to teſtify unto the world that I am not in<g ref="char:EOLhyphen"/>ſenſible of ſo great love, I have adventured to publiſh &amp; to dedicate unto you theſe indigeſted meditations, pro<g ref="char:EOLhyphen"/>vided
+<pb facs="tcp:111314:3"/>for you but elſewhere delivered, which (though rude and unpoliſhed) I deſire you to accept as a pledge of my thankfulneſſe, and an earneſt of farther inde<g ref="char:EOLhyphen"/>vours, if I may be permitted.</p>
+            <p>I weigh not any mans cenſure, but reſt ſatisfied in the ſincerity of my own intentions: it is not applauſe that I aime at, I am no ſelfe-flatterer, no man can have a mea<g ref="char:EOLhyphen"/>ner eſteem of me or of my labours then I my ſelfe have, <hi>Apoſtolorum minimus</hi> (as S. <hi>Paul</hi> ſaid) I am the leaſt of the Apoſtles, nay <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> leſſe then the leaſt. <hi>Eph. 3.8.</hi> Yet am I not hereby diſcouraged from attempting to doe what good I can in that place and ſtation which the great Shepheard and Biſhop of our ſouls hath allot<g ref="char:EOLhyphen"/>ted to me, and who knowes whether this Sermon (read of many) may not through the bleſſing of God rouze up ſome hard hearted ſinner out of the ſleepe of ſecurity, &amp; cauſe him to bring a bucket of teares toward the quench<g ref="char:EOLhyphen"/>ing of Gods wrath and fiery indignation that is kind<g ref="char:EOLhyphen"/>led againſt our Hieruſalem? this is my deſire, my hope, wherein, if I ſhal faile of my expectation, I ſhall ſit down and weep with my Saviour, that after ſo much planting and ſo much watering with the dew of Gods heavenly word, there followes ſo little watering with the teares of true repentance.</p>
+            <p>But I hope better things of you (dearely beloved) and things that accompany ſalvation: the Lord in mercy open all our eyes, that we may at length diſcern the mi<g ref="char:EOLhyphen"/>ſeries that hang over our heads by reaſon of our ſins, that we may weepe night and day for the manifold pro<g ref="char:EOLhyphen"/>vocations wherewith we have provoked him to anger: ſo prayeth.</p>
+            <closer>
+               <signed>Your faithfull ſervant in Chriſt, zealous of your ſpirituall welfare, JOHN PIGOTT.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:111314:3"/>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>LVC. 19.41, 42, 43, 44.</hi>
+                  </bibl>
+                  <p>And when he was come neare he beheld the City, and wept over it ſaying, If thou hadſt knowne, even thou in this thy day, the things that belong to thy peace; but now they are hid from thine eyes.</p>
+                  <p>For the dayes ſhall come upon thee, that thine ene<g ref="char:EOLhyphen"/>mies ſhall caſt a trench about thee, and comp ſſe thee round, and keepe thee in on every ſide,</p>
+                  <p>And ſhall lay thee even with the ground, and thy children within thee, and they ſhall not leave in thee one ſtone upon another, becauſe thou kneweſt not the time of thy viſitation.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">B</seg>Efore I come to the particular handling of theſe words, I ſhall crave leave briefly to premiſe ſomething by way of intro<g ref="char:EOLhyphen"/>duction, of the many engagements of this people unto God for mercies received, and ſomething alſo of their great un<g ref="char:EOLhyphen"/>thankfulneſſe to him for the ſame.</p>
+            <p>There was never any Nation upon Earth more bleſſed with the influences of Heaven, then this nation of the Jewes, you onely have I knowne of all the families of the Earth. Am. 3 2. What Nation is there that hath God ſo nigh unto them, as the Lord our God is nigh unto us in all that we call upon him for, Deut. 4.7. Did ever people heare the voyce of God ſpeaking out of the midſt of the fire, as thou haſt heard and live? or hath God ever aſſad to take
+<pb n="2" facs="tcp:111314:4"/>unto him a Nation out of the midſt of another Nation by won<g ref="char:EOLhyphen"/>ders, and ſignes, by a mighty hand and ſtretched out arme, as he did for you in Egypt, Deut. 4 33.34. God did as it were ſingle out this people from all the Families of the Earth, all the Na<g ref="char:EOLhyphen"/>tions under Heaven, that he might make them the ob ects of his love. that he might ſhew kindneſſe to them, as David dealt by Mephiboſheth. Thou Iſrael art my ſervant, Iacob whom I have choſen, Eſ 41.8. A choſen generation a peculiar people,
+<hi>Et quid ampl us potuit?</hi> and what could God doe more for his Vineyard that he did not doe? wherein could he have made a fuller ex<g ref="char:EOLhyphen"/>preſſion of his love then he did? how did he bemoane them in their miſery? I have ſeen, I have ſeen the affliction of my people, and I have heard their groanings. How did he wraſtle with a ſtubburn hard hearted Tyrant for their enlargement? one that ſlighted his meſſages, contemned his judgements, would not let his people goe, till at length by maine
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>trength he wreſted them out of his hands, when he overthrew both the Horſe and his Rider in the midſt of the Sea, how did he provide a table for them in the Wilderneſſe, and feaſt them with delicious fare, Angels food, Manna from Heaven? how did he dampe the hearts and ſtrike through the loynes of all their enemies? how did he drive out and diſpoſſeſſe ſeven great and mighty-Nations, &amp; gave their land (a land flowing with milke and hony) to be an heritage to Iſrael his people? goodly Cities that they builded not, and Vine<g ref="char:EOLhyphen"/>yards that they planted not, and Houſes full of all good things which they filled not, Deut. 6.11. Will you ſee ſome more privi<g ref="char:EOLhyphen"/>ledges and favours vouchſafed to this Nation? you may finde them recorded by S Paul Rom 3.1. What advantage then hath the Jew? or what profit is there of Circumciſion? Much every way, cheifely becauſe to them were committed the Oracles of God, and more fully Rom. 9.4. wh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>re ſpeaking of the Iſraelites his brethren and kinſmen according to the fleſh he deſcribeth their priviledges in theſe words, To whom pertaineth the adop<g ref="char:EOLhyphen"/>tion and the glory and the covenants, and the giving of the Law, and the ſervice of God and the promiſes, whoſe are the Fathers, and of whom as concerning the fleſh Chriſt came, who is over all, God bleſſed for ever, ſingular prerogatives. Firſt the adoption was theirs; other Nations were ſtrangers and forreiners, they were as it were <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> of the houſehold of God others were counted dogs, they only the children, as appeares by our Saviours anſwer to the Syr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>phenic<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>an woman, It is not meete to take the childrens bread and caſt it to Dogs: Secondly, the Covenants were theirs; other Nations were without God in the world, they
+<pb n="3" facs="tcp:111314:4"/>were a people in covenant with God, Gen. 17 7. God tels Abra<g ref="char:EOLhyphen"/>ham, I will eſta<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>liſh my covenant between me and thee, and thy ſeed after thee in their generations for an everlaſting covenant, to be a God unto thee and to thy ſeed after the, Ier, 31.33. This ſhall be the covenant that I will make with the houſe of Iſrael: after thoſe dayes ſaith the Lord, I will write my Law in their hearts, and I will be their God, and they ſhall be my people. Thirdly, the Law was theirs: other Nations had nothing but the blind g<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>id of nature to direct them, they had the Law written in Tables of ſtone; he hath given his word unto Iacob, his ſtatutes and ordinances unto Iſrael, he hath not dealt ſo with any Nation, neither have the heathen knowledge of his Lawes. Pſal.
+147.19. 4. To them pertained the ſervice of God, other nations wa<g ref="char:cmbAbbrStroke">̄</g>ting the direction of Gods holy word, became vaine in their imaginati<g ref="char:EOLhyphen"/>ons and worſhipped the creature more then the Creatour, pro<g ref="char:EOLhyphen"/>ſtrated themſelves to feined Deities, as we read of Dagon the God of the Philiſtims, and Milcom the abomination of the Amorites, and Chemoſh the abomination of Moab, and Molech the abo<g ref="char:EOLhyphen"/>mination of the Amorites, and Aſhtoreth the goddeſſe of the Sidonians, and Diana the great goddeſſe of the Epheſians: indeed how could they call upon him of whom they had not heard, who was
+<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> an unknown God to them? but in Jury was God known, his name was great in Iſrael, at Salem was his tabernacle, and his dwelling in Sion, the Jewes were taught to direct their worſhip and ſervice to the true God, as Chriſt told the woman of Samaria. Jo. 4.22. you worſhip, ye know not what, we know what we worſhip, for ſalvation is of the Jewes, Tis true, they were ever now and then ſtarting aſide like a broken bow, they grieved him with their hill Altars, and provoked him to diſpleaſure with their images, they had their golden Calves at Dan and at Bethel, and the names of Baalim were too frequent in their mouthes. They tooke unto them the Tabernacle of Molech and the Star of their god Remphan, figures which they made to worſhip them, yet in the moſt deploreable times God had his 7000 in
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſrael that did not bow the knee to Baal, he had his Church among them, a remnant that did worſhip the true God after a true manner; they had his word, and they had his Sacraments, and they had his pro<g ref="char:EOLhyphen"/>phets, and they had his houſe, <hi>Templum Domini,</hi> the Temple of the Lord, the Temple of the Lord was their great confidence which other Nations could not boaſt of Fifthly, the Fathers were theirs, Abraham is our Father, art thou greater then our Father, Jacob, who gave us the well, &amp;c. Sixthly, the promiſes made to the Fathers concerning the Meſſias were theirs, they were intereſted
+<pb n="4" facs="tcp:111314:5"/>in them, though not ſolely, yet principally, let the children firſt be ſerved ſaith Chriſt, the<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> were the naturall branches, and there<g ref="char:EOLhyphen"/>fore the fatneſſe of the Olive tree was firſt tendered to them: you may remember how the Diſciples commiſſion ran. Mat. 10.5. Go not into the way of the Gentiles, and into any City of the Sama<g ref="char:EOLhyphen"/>ritans enter you not, but g<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e you rather to the loſt ſheep of the houſe of Iſrael, le<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the children firſt be ſerved: nay the Meſſias himſelfe was theirs, of whom as concerning the fleſh Chriſt came, the word was made fleſh, and dwelt among them, he ſpent his whole pilgrimage among them, they heard his Sermons, they ſaw his miracles, S. Matthew reports of him, Mat. 9
+35. that he went about all their Cities, and Villages, teach ng in their Synagogues, and preaching the Goſpell of the Kingdom, and healing every ſicknes and every diſeaſe among the people. <hi>Ob fortunatos nim<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>t hona ſi ſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>a wri<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t,</hi> Oh happy people, had they be<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n ſenſible of their happineſſe, as Chriſt told the Samaritan woman. Jo. 4.10. Haddeſt thou but known who it is that ſaith to thee give me to drinke, thou mighteſt have asked of him, and he would have given thee living water; ſo had they but known what a rich treaſure they had among them, they would not have deſired him to depart out of their coaſts as the Ge<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>go ens did, they would not have ſet at nought this corner-ſtone, like fooliſh builders, rather with the wiſe Merchant they would have parted with all for his ſake: they would have been ambitious to get a ſight of him with Zacheus, to touch the hem of his garment with the diſeaſed woman, to kiſſe his feet with Mary Magdalen, they would have entertained him triumphantly with j yfull acclamations as they did in the verſes before my Text, Hoſannah to the ſon of David, bleſſed be he that commeth in the name of the Lord, Hoſannah in the higheſt.</p>
+            <p>Happy were the eyes that ſaw the things which they ſaw (though moſt of them were ſo blinded that they ſaw not their happineſſe) it was part of S. Auguſtins ambitious wiſh, he deſired to have ſeen three things; Rome in her beauty, Paul in the pulpit, &amp; Chriſt in the fleſh, as Abraham and divers other Prophets and righteous men deſired to have ſeen this day of Chriſt. Ioh. 8.56. And happy were the eares that heard the things which they heard, the my<g ref="char:EOLhyphen"/>ſteries of ſaving knowledge <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> thoſe ſecrets and myſteries which were hidden from former ages, and that immediatly from Chriſt himſelfe, <hi>Dulcius ex ipſo f<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nte,</hi> what a bleſſed prerogative was it to heare the wiſdome of the father ſo comfortably diſcourſing of the great work of our redempti<g ref="char:EOLhyphen"/>on! methinkes they ſhould have cried out in admiration with that Diſciple Ioh. 14.22. how is it that thou wilt manifeſt thy
+<pb n="5" facs="tcp:111314:5"/>ſelfe to us, and not unto the world? but my Text tels you they did not know the things that belonged to their peace, they were not ſenſible of the free grace, the rich mercy that was tendered to them, nay doe but conſider their great unthankfulnes and diſ<g ref="char:EOLhyphen"/>obedience in the midſt of ſo many binding mercies, and you may juſtly wonder that Hieruſalem was not long before this time made a heap of ſtones: read over the Prophets and you ſhall find complaints in this kind without number, doe ye thus requite the Lord, Oh fooliſh people and unwiſe? The faithfull City is become a harlot, ſhe was full of judgment, righteouſneſſe lodged in her, but now murderers, Heare O Heavens, and give eare O Earth, I have nouriſhed and brought up children, but they have rebelled againſt me: when I fed them to the fall then they aſſem<g ref="char:EOLhyphen"/>bled themſelves by troupes in the harlots houſes, how ſhall I pardon thee for this? As I live ſaith the Lord, Sodom and her daughters have not done as thou haſt done, thou and thy daugh<g ref="char:EOLhyphen"/>ters, thou waſt corrupted more then they in all thy wayes, Ezech.
+16.47. And when Chriſt came among them in perſon, how did they entertaine him? St. Iohn will tell you, he came to his own, but his own received him not, Ioh. 1.11. <hi>Nolumus hunc regnare</hi> we will not have this man to raigne over us, we have no King but Caeſar; nay, not this man but <hi>Barabbas,</hi> they preferre a publique no<g ref="char:EOLhyphen"/>torious malefactour before him: himſelf alſo will tell you Mat. 13.37. O Hieruſalem, Ieruſalem, howoften would I have gathered thy children together as a Hen doth her chickens under her wings, but ye would not? thus all the day long he ſtretched out his hand, but it was
+<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> to a gaineſaying people, <hi>veluj, noluistis,</hi> how often would I, but ye would not?</p>
+            <p>And yet how unwilling was God to unſheath his ſword, to powre out the full Vials of his fierce anger upon this rebellious Nation? though their ſins were ſo provoking that he knew not well how to pardon them, How ſhall I pardon thee for this? thy children have forſaken me and ſworn by them that are no gods, and ſhall I allow this? ſhall I give my glory to another? how ſhall I pardon thee for this? yet ſo infinite on the other ſide was his mercy, that he was unwilling to puniſh them; Why will ye dye Oye houſe of Iſrael? As I live ſaith the Lord, I have no plea<g ref="char:EOLhyphen"/>ſure in the death of a ſinner: run thorough the ſtreets of Hieruſa<g ref="char:EOLhyphen"/>lem, and ſeek for a man that executeth judgment, that I may par<g ref="char:EOLhyphen"/>don i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>: and moſt pathetically in the
+11. of Hoſ. ver. 8. How ſhall I give thee up Ephraim? how ſhall I deliver thee Iſrael? how ſhall I make thee as Admah, and ſet thee as Zeboim? my heart is turned within me, my repentings are kindled together: ſee what
+<pb n="6" facs="tcp:111314:6"/>a conflict there ſeemes to be in God, between his mercy and his juſtice, how ſhall I pardon thee for this? and yet how ſhall I give thee up; how ſhall I make thee as Admah, &amp;c. faine would I ſpare thee, but thy ſins cry to Heaven for vengeance, thou art incorrigible in thy wayes, and therefore thy ſin is unpardonable, I am forced to give ſentence againſt thee, though it be with teares in my eyes: when he came neare, be beheld the City and wept over it, &amp;c.</p>
+            <p>Chriſt might have inſulted over Heruſalem, when he foreſaw the cup of trembling that ſhe was to drink of, as wiſdom threa<g ref="char:EOLhyphen"/>tens her contemners. Pro. 1.24. Becauſe I have called and ye re<g ref="char:EOLhyphen"/>fuſed, I have ſtretched out my hand, and no man regarded; ther<g ref="char:EOLhyphen"/>fore I will laugh at your calamity, and mock when your feare commeth, when your feare commeth as deſolation, and your deſtruction as a whirle-wind, when diſtreſſe &amp; ang iſh commeth upo<g ref="char:cmbAbbrStroke">̄</g> you: ſo ſeeing Heruſalem would not take warning by all for<g ref="char:EOLhyphen"/>mer invitations, admonitions, judgments, mercies, Chriſt might juſtly have laughed at her calamity, when he ſaw her feare com<g ref="char:EOLhyphen"/>ming as deſolation, and her deſtruction as a whirl-wind: but our bleſſed Saviour came not to deſtroy mens lives, but to ſave them, and therefore when he came neare, he beheld the City and wept over it.</p>
+            <p>In the words we have Chriſt melting into teares for hardhear<g ref="char:EOLhyphen"/>ted Hieruſalem, <hi>Nihil miſerius miſero non miſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rante ſeipſum,</hi> there is not a more ſad lamentable ſpectacle in the world, then to ſee a man, or a City, or a Nation, like Simon Magus in the gall of bit<g ref="char:EOLhyphen"/>terneſſe, in the depth of miſery, in regard of a wilfull perſiſting in heynous and crying ſins, yet themſelves inſenſible of their own miſery, ſleeping ſecurely in their ſins with Balaam, driving o ſtill in their wonted courſe of ſinning, and never take notice of the Sword that is drawen againſt them, hugging and embracing, ſporting and delighting themſelves with thoſe Delilahs, thoſe luſts and corruptions which will prove their bane and deſtructi<g ref="char:EOLhyphen"/>on. <hi>Quis talta fando temper<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t a
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lachrymis?</hi> who can behold all this with dry-Eyes? The Poet hath a conceit that Heaven it ſelfe weeps for ſuch Creatures.
+<q>
+                  <l>Dic rogo cur toties deſcendit ab aethere nimbus?</l>
+                  <l>Grandoque de coeſo ſic fine fine ruit?</l>
+               </q>
+            </p>
+            <p>What may be the reaſon, why there fals ſuch ſtore of Rayne, one ſhower after another?
+<q>
+                  <l>Mortales quoniam nolum ſua crimina flere,</l>
+                  <l>(Calum pro nobis ſolvitur in lachrymas.</l>
+               </q>
+            </p>
+            <p>
+               <pb n="7" facs="tcp:111314:6"/> Becauſe hard hearted ſinners will not bewayle their own faults, H aven it ſelfe is disſolved into teares for them: it is ſo in my Text, Heaven it ſelfe or the heire of Heaven ſals a weep<g ref="char:EOLhyphen"/>ing for Hieruſalem, and is not here a ſtrange alteration, when Hieruſalem ſometime the joy of the whole Earth Pſ 48.2. ſhall not only make the Earth ſad, but even darken the Heavens, cauſe him that was anoynted with the oyle of gladnes above his Fel<g ref="char:EOLhyphen"/>lowes to melt into teares? And when he came neate, he beheld the City and wept over it, &amp;c.</p>
+            <p>The parts are two, the mourner, and the cauſes of his mour<g ref="char:EOLhyphen"/>ning. the Mourner is Chriſt, and that in the middeſt of his jollity too (as I may ſo ſpeake) as he was riding in ſtate in triumph to<g ref="char:EOLhyphen"/>wards Hieruſalem. To ſhew that even in laughter the heart is ſorrowfull, that there is no worldly happineſſe without a mix<g ref="char:EOLhyphen"/>ture of diſcontent: when he came neare he beheld the City and wept over it.</p>
+            <p>The cauſes of his mourning are two, two heavy ſpectacles, for ea<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>h Eye one, and either of them able to command a fountain of teares, as the Propher ſpeakes; the one ſeen, namely, <hi>malum culpe</hi> the evill of ſin. If thou hadſt knowen, even thou in this thy day the things that belong to thy peace, but now they are hid from thine Eyes, thou kneweſt not the time of thy viſitation, the other foreſeen, namely <hi>malum poenae,</hi> the evill of puniſhment, For the dayes ſhal come that thy Enemies ſhall caſt a trench abour thee, and keep thee in on every ſide, and ſhall lay thee even with the ground, and thy children within thee, &amp;c. Or if you pleaſe, we have heer Hieruſalems funerall, where we have firſt the chiefe Mourner Chriſt he be<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eld the City and wept over it ſaying; if thou hadſt knowen, even thou in this thy day! a broken ſpeech, a paſſionate expreſſion, the right Dialect of Mourners,
+<hi>Si cognoviſſes,</hi> if thou hadſt known, or <hi>ô ſi cognoviſſe,</hi> would to God thou hadſt knowen the things that belong to thy peace: methinks I heare him lamenting over Hieruſalem, as David over his friend Jona<g ref="char:EOLhyphen"/>than, 2 Sam. 1.26. I am diſtreſſed for thee my brother Ionathan, very pleaſant haſt, thou been unto me, or as the ſame David la<g ref="char:EOLhyphen"/>mented over Abſalom, oh Abſolom my Son, would God I had died for thee, &amp;c. O Hieruſalem, Heruſalem, would God I had died for thee, as afterwards (you know) he did dye for her and in her, and by her: when he came neare he beheld the City, and wept over it ſaying, &amp;c. Secondly, we have here the malady or cauſe of Hieruſalems death, blindnes, ſecurity, If thou hadſt knowen even thou in this thy day <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> the things that belong to thy peace, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, but now they are did from
+<pb n="8" facs="tcp:111314:7"/>thine Eyes, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> thou kneweſt not the time of thy viſitation. Thirdly, we have here the kind or manner of Death, 'tis a ſtrong death, a terrible death by the Sword, which David ſo earneſtly prayed againſt; Let me fall into the hands of God, for his mer<g ref="char:EOLhyphen"/>cies are great, but let me not fall into the hands of men whoſe tender mercies are cruell; For the dayes ſhall come wherein thine Enemies ſhall caſt a trench about thee, and lay thee even with the ground.</p>
+            <p>
+               <hi>A love principium,</hi> we are to begin with Chriſt the Mourner in my Text: when he came neare he beheld the City, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> and he wept. It was not without a cauſe that Chriſt was ſtiled by the Prophet <hi>Vir Dolorum,</hi> Eſ. 53.3. A man of ſorrowes and acquain<g ref="char:EOLhyphen"/>ted with griefe: ſurvey his whole pilgrimage from the Cratch to the Croſſe, from the Womb to the Tombe, and you ſhall find it like Ezechiels rowle written upon within and without, la<g ref="char:EOLhyphen"/>mentation and mourning and woe; in the dayes of his fleſh he offered up Prayers, and Supplications with ſtrong crying and Teares, Heb. 5.7. At Lazarus his grave he groaned in the Spirit and wept. Ioh. 11.35. Here when he came neare he beheld the City and wept, All his joy was inward, Luc. 10.21. At that time Ieſus rejoyced in Spirit, and ſaid, I thank thee Father Lord of Heaven, and Earth &amp;c. Some inward joy, he rejoyced in the ſpirit in the love and complacency of his Father, I thank thee Father Lord of Heaven and Earth; I am ſure he had little matter of out<g ref="char:EOLhyphen"/>ward joy, of re joycing in the world: many times he complaines of the hatred of the world; if the world hate you, ye know it hated me before it hated you, Ioh. 14.18. How did the unthank<g ref="char:EOLhyphen"/>full world ſlight and neglect him? The Foxes have holes and the Fowles of the Ayre have neſts, but the Son of man hath not where to lay his head: how was he ſcorned and derided in the world? Is not this the Carpenters ſon? Can there any good thing come out of Nazareth? few acknowledged him to be the Meſ<g ref="char:EOLhyphen"/>ſias, the Lord of glory, the Prince of life, the Saviour of the world, the King of the <hi>Iewes,</hi> the Son of God, the brightnes of his Fa<g ref="char:EOLhyphen"/>thers glory, the expreſſe image of his perſon, as he was indeed: how was he ſlandered and ſcandalized by his malignant adver<g ref="char:EOLhyphen"/>ſaries? none of them could convince him of the leaſt ſin, yet they traduce him up and down, as if he were (as St. Paul ſometimes confeſſed of himſelf.) <hi>Peccatorum maximus,</hi> the chiefeſt of ſinners a gluttonous perſon, a Wine-hibber, a friend, a companion of Publicans and ſinners, a Sabbath-breaker, a Blaſphemer, a decei<g ref="char:EOLhyphen"/>ver of the people, a conjurer, caſting out Devils through Belze<g ref="char:EOLhyphen"/>bub; a Traytor, forbidding to pay tribute to Caeſar, and what
+<pb n="9" facs="tcp:111314:7"/>not? and ſurely had he not been more then a man, ſuch uſage was able not only to ſet open the floudgates of his Eyes, but even to break his heart, woe is me my Mother (ſaith the Prophet Je<g ref="char:EOLhyphen"/>remy) that thou haſt born me, I have neither lent upon uſury nor borrowed upon uſury, yet all the people curſe me, Jer. 15.10. They cannot juſtly tax me with any unjuſt action, and yet are continually reviling me, yet here is not all neither, to the perſe<g ref="char:EOLhyphen"/>cution of the Tongue they ad the perſecution of the hand, no ſooner were tidings of his birth ſpread in Herods Court, but pre<g ref="char:EOLhyphen"/>ſently he ſeeks to deſtroy him, and with him a number of young innocents, that knew not their right hand from their left, there began the weeping, Mat. 2.18. Then was fulfilled that which was ſpoken by the Prophet Jeremy ſaving, In Ramah was there a voyce heard, Lamentation and weeping and great mourning Rachel weeping for her children becauſe they were not: as ſoon as he began to preach, the Scribes and Phariſes conſult how they may deſtroy him, one time they were going to throw him headlong from the top of a high hill, Luke. 4.29. As the Devill ſometime would have had him throwen himſelfe down rom the Pinacle of the Temple, another time they had like to have ſto<g ref="char:EOLhyphen"/>ned him, Joh. 10.31. Many good works have I ſhewen you from my Father, for which of theſe do ye ſtone me? another time they ſent their Diſciples to intangle him in his Talk, Mat. 22
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>6. Ano<g ref="char:EOLhyphen"/>ther time their Officers to apprehend him Joh. 7.32 And at laſt they find Iudas to betray him, and ſent a multitude with ſwords and ſlaves to take him as a Thiefe, or a Malefactour, who hurry him from the Garden to the high Prieſts Pallace, from thence to Pilate, from Pilat to Herod, from Herod, after a deale of ſcorn<g ref="char:EOLhyphen"/>full uſage back again to Pilat, where they maliciouſly arraigne him, falſely accuſe him, unjuſtly condemn him, buffet him, ſcourge him, make long furrowes upon his back, beſmeare that face of which the Pſalmiſt, Thou art fayrer then the children of men, with their filthy ſpittle, environ his ſacred Head with a Crown of Thornes, lead him foorth to be crucified, load him with his Croſſe, faſten him to the Croſſe, peirce his Hands and his Feet, inſult over him in his ſufferings,
+<hi>Fixuris clavorum addentes tela
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>rum</hi> (ſaith Leo) to the piercing of the Nayles adding the rankling arrowes of their venemous tongues, Ah thou that de<g ref="char:EOLhyphen"/>ſtroy'ſt the Temple and buildeſt it again in three dayes, ſave thy ſelfe, If he be the King of Iſrael, let him come down from the Croſſe &amp;c. Behold now &amp; ſee if ever ſorrow were like unto this ſorrow: the women could not forbeare weeping who had only a compaſſionate fellow feeling of it, I. u. 23, 27. No marvaile if Chriſt himſelfe wept that felt it.</p>
+            <p>
+               <pb n="10" facs="tcp:111314:8"/> Well if Chriſt be a Mourner, then woe to them that are at eaſe in Sion, that ſpend their days in mirth, and rejoyce at the ſound of the Organ, and the Tabret and the Harp go not out of their Feaſts, Chriſt did not ſo, Chriſtians have no warrant to ex<g ref="char:EOLhyphen"/>pect it, the members muſt be in ſome meaſure conforma<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>le to their head, Ioh. 16.20. Our bleſſed Saviour tels his Diciples, you ſhall weep and lament, but the world ſhall rejoyce, worldlings may let looſe the reynes, and ſeek for a Paradiſe, a Heaven up<g ref="char:EOLhyphen"/>on Earth, in the pleaſures of ſin for a ſeaſon, tis their portion, but Chriſts Diſciples muſt expect Teares for meate, and plenteouſnes of Teares for drink; Mine Eye, mine Eye runs down with Rivers of water ſaith the Church. Lam. 3.48. Mine Eye trickleth down and ceaſeth not, without any intermiſſion. David will tell you of watering his couch, and making his bed to ſwimme with teares, and that night after night, Every night waſh I my bed with the teares of my complaint, Pſ. 6.6. You ſhall find St. <hi>Peter</hi> weep<g ref="char:EOLhyphen"/>ing bitterly, and Mary Magdalen pumping out teares enough to waſh her Saviours Feet: beloved as Chriſt was, ſo are we in this world. 1 Joh. 4.17. that is, pilgrims and ſtrangers, here we have no continuing City, but we ſeek one to come, I am a ſtranger with thee, &amp; a ſo journer, as all my Fathers were; now the condition of a pilgrim is a weeping conditio<g ref="char:cmbAbbrStroke">̄</g>. By the waters of Babylon we ſat down and wept: when we remembred thee O Sion. Pſal. 137.1. Every Dog will be barking at ſtrangers, and you know how im<g ref="char:EOLhyphen"/>periouſly the Sodomites inſulted over,
+<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ot becauſe he was a ſtranger. This fellow (ſay they) came in to ſo journe amongſt us, and he will needs be a judge over us. Now though Chriſt our head met with ſtronger oppoſitions, and greater afflictions in his pilgrimage, then we are like to meet with (for God is faithfull, who will not ſuffer us to be tempted above what we are able) yet we muſt look to drink of the ſame cup that he drank of, though not ſo deep as he drank, and to fill up
+<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> the after ſufferings, that which is behind of the afflictions of Chriſt. Col. 1.24. Beſide we have teares to ſhed that Chriſt was not capable of teares of repentance, he was a Lamb without ſpot and without blemiſh, there was no guile found in his mouth, we are loaden with ſins, there is not a day paſſeth over our heads, wherein we doe not contract unto our ſelves the guilt of many, many ſins. What our Lord and Saviour ſpeaks of the evill of puniſhment. Mat. 6.34 is true alſo of the evill of ſin, ſu ficient for the day is the evill thereof, every day brings ſin enough with it, to over caſt it, to make it a wet day, a day of weeping, for as the Father ſpeaks, ſeeing after we are baptized, and waſhed from
+<pb n="11" facs="tcp:111314:8"/>the guilt of originall ſin, we doe dayly fowle our ſelves a new by the commiſſion of actuall ſins, we ſhould alſo dayly re-baptize our ſelves in the bitter waters of Marah, the teares of true Repen<g ref="char:EOLhyphen"/>tance: what is wanting in innocency, we ſhould Prive to make up in penitency, <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>th quod poſſum, &amp; p ango quod non poſſum,</hi> (as St. Bernard) I doe what I am able, and what! cannot doe I am ſor<g ref="char:EOLhyphen"/>ry for it, but eſpecially upon dayes of ſolemn humiliation, dayes ſet apart for this very purpoſe, for the bewailing both of our perſonall and of our nationall ſins, when God by his judgments threatned or inflicted cals to weeping and to mourning, and to baldnes and to putting on of ſack-cloth, if then the voyce of the turtle be not heard in our Land, if the Mourners doe not goe about the ſtreets, as the Preacher ſpeaks, if there be not a renting of the heart, as well as a hanging down the head like a bulruſh, what ſhall I ſay? ſurely we are in Hieruſalems caſe, neare to deſtruction, we doe not know the day of our viſitation: we know not the things that belong to our peace. So that Chriſt is ſeaſo<g ref="char:EOLhyphen"/>nably brought in weeping, to teach us what we muſt doe, as at all times while we ſo journ here in this valley of teares, ſo eſpe<g ref="char:EOLhyphen"/>cially upon dayes of mourning and humiliation, bleſſed are thoſe that mourne (ſaith Chriſt) they ſhall be comforted: Though they ſow in teares, they ſhall reape in joy; heavines may endure for a night, joy will come in the morning; When the times of refreſhing ſhall come, all teares ſhall be wiped from their Eyes, and they ſhall enter into the joy of their Maſter, receive the oyle of gladneſſe for the ſpirit of heavines, lay aſide their black mour<g ref="char:EOLhyphen"/>ning weeds, and attend the Lambe in white robes with palmes in their hands. Rev. 7.9. And ſo much briefly of the Mourner, in the next place we are to take notice of the cauſes of his mourn<g ref="char:EOLhyphen"/>ing; he beheld the City, and wept over it.</p>
+            <p>His teares are teares of compaſſion, teares of love; Behold how he loved him, ſaid the <hi>Iewes,</hi> when he wept at Lazarus his grave. lo. 11.36. Behold how he loved this unthankefull City, in that he ſhed not teares only as here, but his precious bloud alſo afterwards for it, <hi>V<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>dens civitat<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nt,</hi> he beheld the City and wept over it. We have a proverbe <hi>Vbi amor ibi oculus,</hi> where we love there will our Eye be gazing, where Chriſts love was we may ſee by his Eye too, <hi>Vidit civitatem</hi> he beheld the City, but what cauſe he had to love it, or to ſix his Eye upon it, we ſee not, for what doth he behold there? but matter of griefe and diſcontent? he looked for judgment, but behold oppreſſion; for righteouſnes, but behold a cry; Hieruſalem like Babylon is become a cage of un<g ref="char:EOLhyphen"/>cleane Birds, <hi>Deviarunt omnes,</hi> they are all gone out of the way,
+<pb n="12" facs="tcp:111314:9"/>fallen off from the purity, ſincerity, and religious integrity of their forefathers: there was a time indeed when God behold no iniquity in <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>acob nor ſaw perverſenes in Iſrael. Num 23.21. But now he beholds nothing elſe but iniquity, but perverſenes; A ſinfull Nation, a people laden with iniquity, a ſeed of evill doers, a rebellious houſe, a ſtiff necked people, of uncircumciſed Heart and Eares, which cauſeth him to behold it with watery Eyes, he beheld the
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ity and wept over it, &amp;c.</p>
+            <p>There is a twofold cauſe of Chriſts mourning here, as I told you, Hieruſalems n, and Hieruſalems miſery by reaſon of ſin, as they two are never long aſunder: we are to begin with her ſin as the cauſe of her miſery, and the chiefe cauſe of Chriſts mourn<g ref="char:EOLhyphen"/>ing, he beheld the City and wept over it ſaying; <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f thou hadſt known, even thou in this thy day, the things that belong to thy peace, but now they are hid from thine Eyes, becauſe thou knew<g ref="char:EOLhyphen"/>eſt not the time of thy viſitation.</p>
+            <p>If thou <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>adſt known, even thou, &amp;c. It is no ſingle ſin, but a willfull ſenſeleſſe, ſecure, obſtinate ſleeping in ſin: they will not be convinced of, much leſſe averted from their erroneous cour<g ref="char:EOLhyphen"/>ſes, God hath ſent his Prophets riſing early an calling to them, O doe not this abominable ſin that I hate: he hath comman<g ref="char:EOLhyphen"/>ded them to cry alowd againſt their crying ſins, their idolatry, oppreſſion, ſwearing, lying, killing, ſtealing, neighing after their Neighbours wives like fed Horſes, and what was their anſwer? As for the word that thou haſt ſpoken to us in the Name of the Lord, we will not hearken to it, but we will doe what is plea<g ref="char:EOLhyphen"/>ſing in our own Eyes, to burn incenſe to the Queen of Heaven.
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>er. 41.16. When his ſervants coul<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> not work upon them, he ſent his Son (They will reverence my Son) but they caſt him out of the Vineyard too; this is the Heyre, let us kill him, and the inheritance ſhall be ours. God ſets open a Fountaine for the inhabitants of Hieruſalem to waſh in, for ſin an for uncleaneſſe, they ſcorne this fountaine as Naaman did Jordan; Are not Ab<g ref="char:EOLhyphen"/>ana and Pharpar rivers of Damaſcus, better then all the waters of Iſrael? nay they ſay to Chriſt (who is this fountaine) as St. <hi>Peter</hi> did though with a far worſe mind, thou ſhalt never waſh my feet, Joh. 13.8. God ſends his Son to ſeeke and ſave the loſt ſheep of the houſe of Iſrael, and theſe loſt ſheep, theſe Sons of perdition will not heare the Shepheards voyce, braine-ſick Pa<g ref="char:EOLhyphen"/>tients, they run at the Phyſician that comes to cure them, they ſtumble at the Corner-ſtone, the rock of their ſalvation becomes a Rock of offence to them: and here is their condemnation, that light is come into the World, the day Sar from on high hath
+<pb n="13" facs="tcp:111314:9"/>viſited them, but they chuſe darknes, rather then light, becauſe their deeds are evill. Joh. 3.9. They are not ſenſible of the day of their Viſitation, God hath given them a gracious viſit indeed, hee hath ſent his beloved Sonne amongſt them: the promi<g ref="char:EOLhyphen"/>ſed Shiloh, whom they had ſo long expected, and not they only, but alſo all the Families of the Earth, who expected a bleſſing from him, the deſire of all Nations is come among them, <hi>Ecce rex<g ref="char:EOLunhyphen"/>tius v<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>an t<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>,</hi> Behold thy King commeth unto thee meek, and ſitti g upon an Aſſes Col<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, as you may ſee in the verſes before my Text, and it is w<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ll the Oxe knew his owner (for he was born in a Stable and layd in a Manger) and the Aſſe here his Maſters crib, for Iſrael did not knew his people did not conſider, they reje ed him as the legion of Devils did,
+<hi>Quid nobis tecum?</hi> what have we to doe with thee? Mat. 8.29. Full often he would have gathered their Children together as a Hen gathereth her Chick<g ref="char:EOLhyphen"/>ens under her wings, but they would not, they knew not the things that belonged to their peace. Wherefore is there a price put into the hand of a foole (ſaith Solomon) ſeeing he hath no heart to it? here was an invalua<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>le price put into the hand of a fooliſh Nation, but they had no heart to it, the worth of it was hid from their Eyes, they were ſo beſotted with the pleaſures of ſin, ſo purblind in diſcerning the things that concerned their peace, the welfare and ſalvation of their ſoules, that they had no liſt to cloſe with thoſe bleſſed opportunities which they injoyed, and was not this a ſad ſpectacle? When he beheld the City, he wept over it ſaying; If thou hadſt known, even thou in this thy day, &amp;c.</p>
+            <p>Learn we then here by Chriſts example as to weep, ſo when to weep, where and for whom to beſtow our teares for the back-ſliding of
+<hi>Hi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ruſalem,</hi> when we ſee iniquity in the holy place, the faithfull City become a Harlot, when we ſee precious oppor<g ref="char:EOLhyphen"/>tunities neglected, &amp; pearle<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> trampled under foot by Swine that know not the worth of them, when we ſee men regardles of their ſoules, and the things that concern their peace, obſtinatly to perſiſt in their ſins, without any remorſe of conſcience or feare o judgment; then it is high time to ſet open the floud-gates of our Eyes with David, Mine Eyes guſh out with water becauſe men keep not thy Law, or with our Saviour here, he beheld the City and wept over it ſaying, if thou hadſt known, &amp;c.</p>
+            <p>In the ninth Chap. of Ezech. Ver 4. We find a command to ſet a mark upon the forehead of all thoſe that ſigh, and cry out for all the abominations, that were committed in the middeſt of <hi>Hieruſalem,</hi> and indeed what Chriſtian mans heart can chuſe
+<pb n="14" facs="tcp:111314:10"/>but bleed within him, if he ſhall ſeriouſly lay to heart all the abominations that are committed before his Eyes, how was righteous Lots ſoule vexed with the uncleane converſation of the filthy Sodomites? 2 <hi>Pet.</hi> 2.7, 8. We read of S. Paul, that when he came into Athens, and ſaw the City wholy given to Idolatry, <hi>Commotus eſt Spiritus,</hi> that his Spirit was moved within him. Acts 17.16. To ſee the renowned City of Athens, ſo famous formerly for learning, now become ſo infamous for Idolatry, communi<g ref="char:EOLhyphen"/>cating that honour and ſervice, which is due and proper to God alone, to dumb Idols: his ſpirit was moved within him, and ſo far moved, that though he were in a ſtrange place, yet he could not contein himſelfe, but cries aloud againſt thoſe abominations; David cries out, it grieveth me, when I ſee the tranſgreſſors, be<g ref="char:EOLhyphen"/>cauſe they keep not thy Law. Pſal. 119.158. And the Apoſtle ſpeak<g ref="char:EOLhyphen"/>ing of thoſe looſe livers in the primitive Church, whoſe belly was their God, and gloried in their ſhame, ſaith thus of them, I tell you weeping, they are the Enemies of the Croſſe of Chriſt. Phil. 3.18, 19. David could not behold the tranſgreſſors without grieving, It grieveth me when I ſee the tranſgreſſors, becauſe they keep not thy Law, nor S. Paul ſpeak of it without weeping, I tell you weeping, they are the Enemies of the Croſſe of Chriſt: ſo ten<g ref="char:EOLhyphen"/>der hearted have Gods children ever been, ſo ready to mourn for others ſins; as indeed there is a great deale of reaſon we ſhould do ſo both in reſpect of God, who is therby diſhonoured, in reſ<g ref="char:EOLhyphen"/>pect of the ſinner, for whom in common humanity we cannot but weep, when we obſerve how greedily he runs to his own deſtruction, what haſt he makes to that place where ſhal be ever<g ref="char:EOLhyphen"/>laſting weeping and wayling, and gnaſhing of teeth, &amp; in reſpect of our ſelves who are indangered by other mens ſins, their ſin is infectious, I living among them may perhaps be drawn to caſt in my lot to run with them to the ſame exceſſe of riot, to partake with them in their ſins: their ſin in offenſive to God; if God ſhall unſheath his ſword, and come to viſit for their iniquities, I living among them may perhaps be partaker of their puniſhment, and therfore for my own ſake, I have cauſe to mourne for the ſins of other men, <hi>Tunc tua res agitur, paries cum proximus ardet,</hi> tis high time for thee to look about thee, when thy Neighbours Houſe is on fire.</p>
+            <p>And firſt we cannot but mourn for the abominations of
+<hi>Hie<g ref="char:EOLhyphen"/>ruſalem</hi> the ſins of other men, in reſp<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ct of God, in zeale to his glory, to ſee him dayly diſhonoured, his holy name blaſphemed, his Sabbaths prophaned, his ſervice neglected, al his commande<g ref="char:EOLhyphen"/>mants broken, and that by the ſins of other men: this was it that
+<pb n="15" facs="tcp:111314:10"/>made the Prophet Eliah complaine ſo mournfully. 1 Kings 19.10. I have been very zealous for the Lord of Hoſts, for the children of Iſrael have forſaken thy Covenant, thrown down thine Al<g ref="char:EOLhyphen"/>tars, ſlain thy Prophets with the ſword, and I only am left, and they ſeek my life to take it away. I have been very jealous for the Lord of Hoſts; indeed we would count him an unnaturall Son, that ſhould ſtand by: ſee and heare his Father abuſed and diſhonoured, and (though he could not hinder it) ſhould not at leaſt expreſſe himſelfe to be grieved and troubled at it, and ſurely we have juſt cauſe to ſuſpect our ſelves to be baſtards, and not Sons, if we can ſtand by when our Heavenly Father is diſ<g ref="char:EOLhyphen"/>honoured in word or deed, and not ſo much as ſhed a teare for the ſame, we are not of that Spirit, that the Children of God were wont to be of,
+<hi>Moſes</hi> when he came down from the mount, and ſaw the abomination of the <hi>Iſraelites</hi> that they had changed the glory of God into the ſimilitude of a Calfe that cateth Hay, he was ſo daunted at the ſight, that diſmall ſight, that for the preſent he was like a man in an Ecſtaſy, he forgot what he was doing, he let the Tables that were written upon by the finger of God, to fall out of his hands and be broken, and ſo brake thoſe Lawes in his zeale, which the people had broken in rebellion. Exod. 3<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>.19. Phinehas his zeale was ſo hot, that he could not hold his hands, but runs upon the offenders Zimri and Cozbi, and runs them thorough with his ſavelin. Num.
+25.8. <hi>Hezechias</hi> rents his cloths heating the blaſphemous words of Rabſhakeh reviling the living God, and David cries out, my zeale hath even conſum<g ref="char:EOLhyphen"/>ed me, becauſe mine Enemies have forgotten thy words, and here the Son of David weeps for the ſins of <hi>Hieruſalem:</hi> And no marvayle, for it being the earneſt deſire of Gods children, the conſtant aime of all their actions to doe all to the glory of God, and to let theit light ſhine before men, that others ſeeing their good works may glorify their Father which is in Heaven; Let their light ſhine in like manner, to the glory of God. Let the people prayſe thee O God, let all the people prayſe thee; now to be croſt in their earneſt deſire, to ſee men in ſtead of doing all to the glory of God, to do all to the diſhonour of God, to ſell themſelves to work wickednes in his ſight, muſt needs be a great heart-breaking or occaſion of mourning.</p>
+            <p>Secondly, we have cauſe to mourn for the abominations of
+<hi>Hieruſalem</hi> the ſins of other men in regard of themſelves, in com<g ref="char:EOLhyphen"/>paſſion to their ſoules, to ſee how deſperatly they run themſelves upon the Rock of Gods judgments, how wilfully they embrace their own deſtruction, how ſwiniſhly they wallow in the mire
+<pb n="16" facs="tcp:111314:11"/>of ſin, how willing they are to be led by the Enemy of their ſal<g ref="char:EOLhyphen"/>vation, the ſpirit that worketh in the children of diſobedience, making it their dayly trade: their continuall exerciſe to adde ſin unto ſin, and to heap up wrath againſt the day of wrath, and
+<hi>Hirc illae lachrymae,</hi> and who can behold all this with dry Eyes? if we ſhould ſee a man like Baals Prieſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s, cutting himſelfe with lan<g ref="char:EOLhyphen"/>cers and knives till the bloud followed: I ſuppoſe there is none of us but would be mooved with ſuch a ſpectacle as this: beloved this is the ſinners caſe: he dayly wounds and mangles himſelfe with his ſins, every ſin makes a deep gaſh in the ſoule: ſpare then ſome of thoſe Teares, which thou uſeſt to ſhed for the death of the body, and ſhed them for the death of the ſoule, for the ſins of other men; for theſe without repentance lead to everlaſting death and deſtruction, in that lake that burneth with fire and brimſtone, where the Worm dieth not, and the fire is not quenched.</p>
+            <p>And thirdly, we have cauſe to mourn for the abominations of
+<hi>Hieruſalem,</hi> the ſins of other men in regard of our ſelves and thoſe dangers which by other mens ſins hang over our own heads; Woe is me (ſaith the Pſalmiſt) that I am conſtrayned to dwell with
+<hi>Meſech,</hi> and to have my habitation among the tents of <hi>Kedar.</hi> Pſal. 120.4. There is a twofold woe hanges over the head of Gods children by reaſon of ſinners that live among them, a woe of infection, and a woe of Malediction, or a woe of puniſh<g ref="char:EOLhyphen"/>ment: firſt I ſay a woe of infection, Can a man touch pitch and not be defiled? Can a man live among ſinners like
+<hi>Ezechid</hi> in the midſt of Scorpions, and not be poyſoned, not be infected by them? can Joſeph live in Pharaohs Court, and not learne to ſweare by the life of Pharaoh? it is a hard matter to live blame<g ref="char:EOLhyphen"/>leſſe, and without rebuke and to ſhine as lights in the middeſt of a perverſe and crooked generation, though the Apoſtle require it, Phil. 2.15. And therefore it is no ſmall commendations that Chriſt gives the Biſhop of Pergamos, Rev. 2.13. That he held faſt his name and did not deny his faith, though he lived where the Synagogue of Satan was; we are all of an apiſh nature, apt to imitate the manners and conditions of thoſe with whom we converſe, Like Labans ſheep, <hi>Ger.</hi> 30.39. Ready to bring forth white or ſpotted according to the patterns of innocency, or cor<g ref="char:EOLhyphen"/>ruption we ſee before our Eyes, with the holy thou ſhalt be ho<g ref="char:EOLhyphen"/>ly, and with the froward thou ſhalt learn frowardneſſe. Pſal. 18.26. I have heard of thoſe who knowing themſelves to be cer<g ref="char:EOLhyphen"/>tainly infected with the plague, that they have gone out into the Streets, and ſo not only poyſoned the Ayre to the great dan<g ref="char:EOLhyphen"/>ger
+<pb n="17" facs="tcp:111314:11"/>of paſſers by, but even breathed upon as many as they could come neare that ſo they might bee ſure to infect them: for certaine it is ſo with thoſe that are infected with the plague of ſin, their bad example, that is like the poyſoning of the ayre, very dangerous; but their lewd entiſing counſell, their inſinuating temptations, come let us lay waite for bloud, wee ſhall fill our houſes with ſpoile, caſt <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n thy
+<hi>Lot</hi> among us <hi>Pro.</hi> 1.11. that is like the breathing of an infected perſon upon a<g ref="char:EOLhyphen"/>nother, almoſt inevitable.</p>
+            <p>One woe is paſt, a woe of infection, there is a ſecond woe hangs over the head of Gods children by reaſon of the wicked that live among them, a woe of malediction or a woe of puniſhment, and that two<g ref="char:EOLhyphen"/>fold; one for the wicked, another from the wicked; Firſt, there is a puniſhment hangs over them for the wicked, <hi>fugiamus ne ſi balneum propter Cerinthum ruerit, nos quoque damni ſimus participes,</hi> ſaid Saint <hi>Iohn</hi> the Evangeliſt, let us make haſte away leaſt the Bath fall for
+<hi>Cerinthus</hi> ſins, and wee partake of <hi>Cerinthus</hi> puniſhment, come out of her my people, that ye bee not partakers of her ſins, that yee receive not of her plagues, <hi>Rev.</hi> 18.4. all Iſrael ſmarts for
+<hi>Achans</hi> offence, and many times a fruitfull land is made barren for the wickedneſſe of them that dwell therein: <hi>Pſ.</hi> 107.34. Tis true, God ſometimes ſpares the place for the tens ſake, unwilling to weed out the tares, leaſt he pluck up the wheat alſo, and yet ſometimes ſin growes to ſuch a ripeneſſe, that it cauſeth God to ſweepe away the inhabitants of a land with the beſome of deſtruction, as he threatens by the Prophet; witneſſe thoſe three great judgements, the famine, the peſtilence, and the ſword, when they come they ſpare none. Secondly, there is a puniſhment hangs over them from the wicked, for who knowes not that the wic<g ref="char:EOLhyphen"/>ked are profeſſed enemies to the children of God? this ſerpentine brood beares a mortall enmity to the ſeed of the woman. Chriſt and his members, though they cannot breake their head, they will (if it be poſſible) bruiſe their heele, prove like the Canaanites, to the Iſrae<g ref="char:EOLhyphen"/>lites, ſcourges in their ſides, and thornes in their eyes, alwayes deri<g ref="char:EOLhyphen"/>ding, traducing, oppoſing, oppreſſing them, making their lives bitter unto them: ſheepe can looke for no better entertainment among Wolves: and therefore Gods children, living among the wicked, may juſtly take up the complaint of the <hi>Pſalmiſt,</hi> our Soule is among Lions where t'is as great a miracle, that they ſhould not be worried, as that <hi>Daniel</hi> was not torne in peeces in the Lions denne.</p>
+            <p>You ſee there is cauſe enough to weepe over Hieruſalem, to mourne for the ſins of other men, and yet this mourning may be much increa<g ref="char:EOLhyphen"/>ſed both from the condition of him tha: mourneth, as alſo from the condition of him, for whoſe ſins we mourne. Firſt, from the conditi<g ref="char:EOLhyphen"/>on of him that mourneth, from that relation, which the mourner hath unto him, for whoſe ſins he mourneth: and heere I may inſtance in two ſorts of mourners, naturall parents mourning for their children,
+<pb n="20" facs="tcp:111314:12"/>ſpirituall parents miniſters mourning for their flocks. To begin with naturall parents, thinke with your ſelves (and perhaps I ſpeake to ſome that know and feele it) what a greefe it muſt needs bee to pa<g ref="char:EOLhyphen"/>rents, Godly religious parents, to ſee their children take lewd courſes, to walke in the counſell of the ungodly, and ſit in the ſeat of the ſcornefull, to ſet at nought their wholeſome inſtructions and fatherly admonitions, a wiſe Sonne maketh a glad Father (ſaith
+<hi>Solomon</hi>) but a fooliſh Son is a heavineſſe to his Mother.
+<hi>Pro.</hi> 10.1. ſuch a heavineſſe was <hi>Eſau</hi> to his mother
+<hi>Rebeccah</hi> in matching into that curſed ſtock of the
+<hi>Hittites,</hi> as you may read, <hi>Gen.</hi> 27.46. I am weary of my life be<g ref="char:EOLhyphen"/>cauſe of the daughters of <hi>Heth,</hi> if <hi>Iacob</hi> take a wife of the daughters of <hi>Heth,</hi> ſuch as are the daughters of the land, what good will my life doe me? and Saint <hi>Auguſtine</hi> reports of his mother
+<hi>Monica,</hi> that as often as her children did ſin againſt God, ſo often ſhe did as it were <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>vell in birth of them again, euery evill report ſhe heard, did as it were cauſe a new throw, nay I thinke the paines of child-birth are not ſo tedious to the mother, as thoſe after-paines that are cauſed by the lewd converſation of their ungracious Children, for thoſe paines though they be ſharp, they are ſoone over, and there is ſome comfort in the midſt of them, that a childe is comming into the world; but when good
+<hi>Eunice</hi> ſhall doe her beſt indeavour to traine up her children in the way wherein they ſhould walke, acquainting them with the holy Scripture, which are able to make them wiſe unto ſalvation, and yet at laſt ſhall find all her labour loſt, her hopes fruſtrated, her children carryed away, with lewd and vicious company, into all manner of looſe converſation, as rioting and drunkenneſſe, chambering and wan<g ref="char:EOLhyphen"/>tonneſſe, this muſt needs bring her gray haires with ſorrow to the grave. From naturall parents mourning for their children, paſſe wee to ſpirituall parents mourning for their flocks; thinke with your ſelves, what a greife it is to faithfull Paſt<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rs to ſee no better ſucceſſe of all their labours, ſo much planting, and ſo much watering, and yet little or no increaſe, but they are forced to complaine with the Pro<g ref="char:EOLhyphen"/>phet, <hi>Domini quis credidit?</hi> Lord who hath beleeved our report? <hi>Eſ.</hi> 53.1. but eſpecially, when wee conſider how heary all our prea<g ref="char:EOLhyphen"/>ching, and all our exhortations will one day lye upon you, for want of your obedience, th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t our word which was intonded to be a ſavour of life unto life, will prove to ſome of you the bitter ſavour of death un<g ref="char:EOLhyphen"/>to death, that it will bee more tolerable for <hi>Sadom</hi> and <hi>Gomurha</hi> at the day of judgement, then for many among you, becauſe ye have deſpiſed our doctrine, that wee ſhall bee forced to ſtand out and accuſe you at that day, as Chriſt told the Jewes 10.5.45. Thinke not that I will accuſe you to my Father, there is one that accuſeth you, even <hi>Moſes</hi> in whom you truſt, that
+<hi>Moſes</hi> in whom you truſt, who indeed was wont to ſtand in the gap to mediate and intercede for you, at that day hee ſhall be your chiefeſt enemy, <hi>Moſes</hi> ſhall ace<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſe you, becauſe you would
+<pb n="21" facs="tcp:111314:12"/>not beleeve n<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> obey his writings <hi>verſ.</hi> 47. now thinke with your ſelves what a greefe this muſt needs bee, to the Miniſters of God, to conſider with themſelves, that they who have deſired nothing more then the ſalvation of thoſe that are committed to their charge, muſt at the laſt day be forced to appeare and riſe againſt many of them for their condemnation, to throw the firſt ſtone at them.</p>
+            <p>Secondly this mourning may be increaſed alſo from the condition of him for whoſe ſins wee mourne, ſome men doe a great deale more hurt by their ſins then others, and therefore their ſins are the more to be lamented, and here likewiſe I may inſtance in two ſorts of people. Firſt, thoſe that are eminent in place, aloft in the eye of the world advanced to places of eminency and dignity in Church or Common<g ref="char:EOLhyphen"/>wealth,
+<hi>actiones ſuperiorum ſunt libri inferiorum</hi> the actions of ſuperiors are many times the bookes that inferiours learne by, and therefore when they are evill, they are twice evill, evill in themſelves, and evill for example, as they are bad patternes and preſidents for inferiours to imitate: if King <hi>Iereboam</hi> turne away his eare from hearing the law, you ſhall you ſhall ſoone find a miſerable Kingdome, for his example will make all
+<hi>Iſrael</hi> to ſin, and therefore his ſins are much to be lamen<g ref="char:EOLhyphen"/>ted. It is therefore a mournfull ſpectacle to ſee a Magiſtrate that is ſent for the terrour of evill doere, to beare the Sword in vaine, either to live in notorious ſins himſelfe, or to allow and winke at the ſins of others, this was Gods complaint againſt <hi>Iſrael Eſ.</hi> 1.23. Thy Princes are rebellious and companions of theeves, they that ſhould re<g ref="char:EOLhyphen"/>forme ſin in others, they are rebellious themſelves, &amp; they that ſhould judge the Fatherleſſe, and plead for the widow, they are companions of theeves, ſo they may have a bribe for conniving, they never regard to deliver the oppreſſed out of the hand of the ſpoyler, It is alſo a mourn<g ref="char:EOLhyphen"/>full ſpectacle to ſee a miniſter, upon whoſe garments under the Law, was engraven in letters of gold, Holineſſe unto the Lord, to defile this garment by living in thoſe ſins which in his owne mouth condemnes out of the word of God, to ſee thoſe that ſit in <hi>Moſes</hi> ſeat doe ſuch things as theſe people may not imitate <hi>Matth.</hi> 23.3. to build with one hand and pull downe with the other; to lead by his good doctrine, and miſlead by his wicked converſation; to have Chriſt in his mouth, and
+<hi>Satan</hi> in his heart; this is likewiſe a ſad mournefull ſpectacle. Laſtly, thoſe that are eminent though not in place, yet in the eſteeme and opinion of the Church, I meane profeſſors of religion, their ſins are more ſcandalous, and therefore more to be lamented then the ſins of other men: if <hi>David</hi> a pillar of the Church ſtep awry, the ene<g ref="char:EOLhyphen"/>mies of the Lord will ſoone have their mouths open to blaſpheme up<g ref="char:EOLhyphen"/>on that advantage.
+2. <hi>Sam.</hi> 12.14. To ſee therefore a profeſſour, not to live according to his profeſſion, not to walke worthy of that new name that Chriſt hath given him, not to walke as becometh the Goſpell, to over-reach or circumvent his neighbour in bargaining
+<pb n="22" facs="tcp:111314:13"/>or ſelling, or to undermine his brothers good reputat<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>on, by becom<g ref="char:EOLhyphen"/>ming the devills agent to ſcatter falſe and ſlanderous reports, or to live in malice or adultery, or to hugge any other delightfull darling luſt in his boſome, this is alſo a ſad mournefull ſpectacle.</p>
+            <p>Well, if Chriſt have taught us to mourne for the back-ſlidings of Hieruſalem, what ſhall we ſay to that <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> that rejoycing in evill which is in the world? what ſhall we thinke of thoſe active in<g ref="char:EOLhyphen"/>ſtruments of <hi>Satan</hi> that take ſuch paines to propagate ſin in others? thoſe inticers. <hi>Pro.</hi> 1.11. Come let us lay waite for bloud, caſt in thy lot amongſt us, let us all have one purſe, wee ſhall fill our houſes with ſpoyle, and enrich our ſelves with precious ſubſtance &amp;c. thus the Prophet brings in a crew of Idolaters animating and incouraging one another in their deſignes, <hi>Eſay</hi> 41.6. They helped every one his neighbour, and ſaid one to another, be of good courage; ſo the Car<g ref="char:EOLhyphen"/>penter incouraged the Goldſmith, he that ſmootheth with the Ham<g ref="char:EOLhyphen"/>mer, him that ſmote the Anvile ſaying it is ready for the ſodering, and ſo <hi>Eſ.</hi> 56<g ref="char:punc">▪</g> 12. hee brings in a company of drunkards daring one ano<g ref="char:EOLhyphen"/>ther to ſit cloſe at it, come ſay they, I will fetch wine, and we will fill our ſelves with ſtrong drinke, and to morrow ſhall be as to day and much more aboundant, and what ſhall we thinke of <hi>Solomons</hi> fooles that make a ſport of ſinne? never more merry then when they heare of the diſorderly carriages, the drunkenneſſe, the ſwearing, the wan<g ref="char:EOLhyphen"/>tonneſſe of their brethren; ſure (as the Apoſtle ſpeakes,
+<hi>Eph.</hi> 4.20.) <hi>non ſic didiciſtis Chriſtum,</hi> you have not ſo learned Chriſt; he mournes for Hieruſalem, hee beheld the Citty and wept over it ſaying, If thou &amp;c.</p>
+            <p>And beleeve it, there was never more cauſe of mourning in this kind then in our dayes, a fountaine of teares would not ſuffice to be<g ref="char:EOLhyphen"/>waile all the abominations that are committed in the midſt of our Hieruſalem: if our Lord and Saviour were now upon earth, he would never goe with dry eyes: for beſide that Luke-warmneſſe that is a<g ref="char:EOLhyphen"/>mongſt us, that a great many are neither hot nor cold, what ſinne was ever committed by any that is not committed by many in this land, and in this City? how hath pride jetted in one ſtreet? drun<g ref="char:EOLhyphen"/>kenneſſe reeled in another ſtreet? oppreſſion marched like <hi>Iehu</hi> in ano<g ref="char:EOLhyphen"/>ther ſtreet? adultery with all her wanton poſitures minced in another ſtreet? wee have juſtified <hi>Sodome</hi> in all her abominations; <hi>Sodom</hi> which along while agoe was turned into aſhes, and made an enſam<g ref="char:EOLhyphen"/>ple to all that ſhould afterwards live ungodly, hath not done as wee have done; we have exceeded <hi>Sodom</hi> if not in the commiſſion of grea<g ref="char:EOLhyphen"/>ter ſins, yet in committing the ſame ſins with greater impudency and greater obſtinacy, in regard of that glorious light which ſhines a<g ref="char:EOLhyphen"/>mongſt us and did not ſhine among them, and yet (which is the mi<g ref="char:EOLhyphen"/>ſery) there is ſcarce a <hi>Lot</hi> to be found, whoſe righteous ſoule is greived for all theſe abominations, though only ſuch mourners bee marked in
+<pb n="23" facs="tcp:111314:13"/>the forehead, to be preſerved in the deſtruction of Hieruſalem, <hi>Ezech.</hi> 9. though only ſuch mourners be the followers: and Diſciples of Chriſt, for hee beheld the City and wept over it ſaying, If thou hadſt knowne, even thou in this thy day, &amp;c.</p>
+            <p>And ſo I come to the other cauſe of Chriſt his mourning, Jeruſa<g ref="char:EOLhyphen"/>lems miſery, for the dayes ſhall come that thine enemies ſhall caſt a trench about thee, and keepe thee in on every ſide, and lay thee even with the ground, 'twas likely we ſhould heare of a ſtorme, Hieruſa<g ref="char:EOLhyphen"/>lem was ſo ſecure, ſo oppreſt with the ſpirit of drowſineſſe (ſhe did not know the things that belonged to her peace, they were hid from her eyes) when men ſhall cry peace and ſafety, then ſudden deſtruction ſhall come upon them as travell upon a woman that is with childe. 1. Theſſ. 5.3. the men before the deluge were eating and drinking, marrying and giving in marriage, when the floud came and ſwept them all away, the men of <hi>Laiſh</hi> were extreame careleſſe and ſecure when the <hi>Danites</hi> came upon them and ſlew them with the edge of the Sword, <hi>Elies</hi> Sons ſet their Fathers counſell at nought, they would not ſee the vileneſſe and danger of their ſins, when the Lord had a pur<g ref="char:EOLhyphen"/>poſe to ſlay them, and <hi>Lots</hi> admonitions ſounded as idle tales in the eares of his Sons in Law, when the next morning <hi>Sodom</hi> and
+<hi>Gomorrha</hi> were deſtroyed with fire and brimſtone from heaven, when the Pro<g ref="char:EOLhyphen"/>phets (who are called Seers and watchmen) ſhall diſcerne a cloud, a tempeſt ariſing, and ſhall according to their duty, give the people war<g ref="char:EOLhyphen"/>ning to fly from the wrath to come, to prevent and divert it by repen<g ref="char:EOLhyphen"/>tance and reformation, if the people now ſhall ſlight the Prophets words as idle tales, ſay with Saint <hi>Peters</hi> mockers, <hi>Vbi promiſſio adven<g ref="char:EOLhyphen"/>tus?</hi> where is the promiſe of his comming? or with thoſe
+<hi>Deut.</hi> 29.19. we ſhall have peace though we adde drunkenneſſe to thirſt, though we goe on in our ſenſuall courſes, though wee ſeek it yet againe, as tis <hi>Pro.</hi> 23.35. ſurely that people muſt needs bee in as bad caſe as the ground that Saint <hi>Paul</hi> ſpeakes of
+<hi>Heb.</hi> 6.8. that drinketh in the raine, and bringeth forth nothing but briars and thornes, nigh unto curſing, whoſe end is to be burned: and this was Hieruſalems caſe here, Hieruſalem, had many warnings both from the Prophets, and from the Lord of the Prophets, many gracious tenders of mercy were made to her, many ſevere threatnings were diſcharged againſt her, woe unto thee O Hieruſalem wilt thou not bee made cleane? when will it once be? <hi>Ierem.</hi> 13.27. but ſhe is either ſo blind or ſo obſtinate, or both, that ſhe doth not, or will not know the things that belong to her peace: here in my Text Chriſt himſelfe woos her [if thou hadſt knowne, even thou in this thy day &amp;c.] and that with teares in his eyes, [he beheld the City and wept over it], but all in vaine; Chriſt did but caſt an eye back upon <hi>Peter,</hi> and that recalled him, <hi>Luc.</hi> 22.61. [the Lord turned and looked upon <hi>Peter,</hi> and <hi>Peter</hi> remembred the words of the Lord, and he went out and wept bitterly] here he looked
+<pb n="24" facs="tcp:111314:14"/>a long time upon Hieruſalem [he beheld the City and wept over it] but Hieruſalem is ſo ſetled upon her Lees.
+<hi>Zeph.</hi> 1.12. ſo grounded in ſecurity and hardneſſe of heart, that ſhe cannot, that ſhe will not re<g ref="char:EOLhyphen"/>pent, and therefore no marvell if her goods become a booty, and her houſes a deſolation, as it followes there at the 13. <hi>verſe,</hi> or as tis in the Text, the dayes ſhall come, that thy enemies ſhall caſt a trench a<g ref="char:EOLhyphen"/>bout thee, and keepe thee in on every ſide, &amp;c.</p>
+            <p>Here you ſee the kind of her miſery, Hieruſalem is expoſed to the fury of her mercileſſe enemies, to the Sword the ſharpeſt of Gods 3. Airewes, ſhee hath not liberty to take her choyce as <hi>David</hi> had 2. <hi>Sam.</hi> 24.13. Wilt thou have 7. yeares famine come upon the land? or wilt thou flee 3. moneths before thy enemies while they purſue thee? or wilt thou that there be 3. dayes peſtilence in the land? but ſhe is peremptorily deſigned to the Sword, to be compaſſed about with armies, that ſhould batter downe her lofty Turrets, her princely pa<g ref="char:EOLhyphen"/>laces, lay them all even with the ground; For the dayes ſhall come that thine enemies ſhall caſt a trench about thee, &amp;c.</p>
+            <p>It was a heavy ſight to ſee Hieruſalem blocked up in this manner, ſo ſtreightly and ſtrongly beſeiged, that they were neither able to beat off their enemies, nor could expect ſuccour from their friends: it had beene an uncomfortable fight to ſee ſome houſes ſhut up in Hieruſalem by the deſtroying Angell; but to ſee Hieruſalem it ſelfe ſhut up, was both a ſtrange and a ſad ſpectacle: where is the noble valour, the he<g ref="char:EOLhyphen"/>roick Spirit, that was wont to be in this people? time was when one of them could chaſe a thouſand, and two of them put ten thouſand to ſlight, when <hi>Iſrael</hi> lay downe like a Lion, and couched like a great Lion, and none durſt rouze him up, when other nations were glad to betake themſelves to their fenced Cities becauſe of them, and there to fortifie their walles, Barrocadoe their Gates againſt them, as Hie<g ref="char:EOLhyphen"/>richo and other Cities did, or if they did venture to ſally out againſt them one way, they were forced to flee before them ſeven ways: but what ſhall we ſay now, when Iſrael turnes their backs before their enemies? when they are forced to retreat into Hieruſalem for ſhelter, when the enemy purſues them to the very Ga<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es, intrench themſelves round a<g ref="char:EOLhyphen"/>bout the City, and threaten to cut them all off, eyther by the Sword, or by the Famine, which is ſharper then a two edged Sword. The dayes ſhall come that thine enemies, &amp;c.</p>
+            <p>It was ſtrange that Hieruſalem ſhould be thus ſurrounded, but more ſtrange that it ſhould bee taken, that it ſhould bee battered downe and laid even with the ground, as it followes in the next words, They ſhall lay thee even with the ground and thy children within thee, this w<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s ſtrange indeed, whether wee conſider the ſcituation of the City, or the protectour of the City; for the ſcituation of it, t'was feared up<g ref="char:EOLhyphen"/>pon ſuch high, craggy, inacceſſible rocks or mountaines, that it was even by nature made almoſt impregnable: the
+<hi>Iebuſites</hi> that held it till
+<pb n="25" facs="tcp:111314:14"/>
+               <hi>Davids</hi> time, thought it ſo ſtrong of it ſelfe, that the blind and the lame were able to defend it againſt
+<hi>David,</hi> and all his men of valour. 2 <hi>Sam.</hi> 5.6. And to this ſtrength of nature, was added an artificiall ſtrength of Forts and Bulwarks. <hi>Pſal.</hi> 48.12. Walke about Sion and goe round about her, and tell the Towers thereof, marke well her Bul<g ref="char:EOLhyphen"/>warks, conſider her Palaces, that you may tell them that come after: now to ſee theſe ſtrong Bulwarks, theſe ſtately Palaces laid even with the ground, was a ſight no leſſe wonderfull then lamentable: The Kings of the earth and all the inhabitants of the world, would not have beleeved, that the enemy ſhould have entred into the Gates of Hieruſalem: <hi>Lam.</hi> 4.12. Againe conſider the Protector of the Ci<g ref="char:EOLhyphen"/>ty: it's true, except the Lord keepes the City, the watchman waketh but in vaine, but Hieruſalem was the City of the great King, God was well knowne in her Palaces as a ſure refuge, hee had his Temple there, for thy Temples ſake at Hieruſalem, nay and Hieruſalem had experience of his protection formerly, when it was beſeiged by the Forces of
+<hi>Senacherib,</hi> an Army ſuppoſed invincible, yet the Lord be<g ref="char:EOLhyphen"/>ing their Protectour, raiſed the ſeige, as you may read. <hi>Eſay</hi> 37.35. I will defend this City for my owne ſake, and for my ſervant <hi>Davids</hi> ſake, And that night the Angell of the Lord went out and ſlew in the Camp of the <hi>Aſſyrians</hi> 185000. But where is the God of Hieruſa<g ref="char:EOLhyphen"/>lem now? as <hi>Eliſhah</hi> ſpake when he came to the bank of Jordan, where is the Lord God of <hi>Eliiah</hi> now? 2. <hi>Reg.</hi> 2.14. ſurely the Glo<g ref="char:EOLhyphen"/>ry is departed from Iſrael, Iſrael hath rejected the Lord, and gone a whoring after ſtrange Gods, they have walked extreame contrary to him in all their wayes, and therefore the Lord hath at length juſtly with-drawne himſelfe from them, and left them as a prey to their ene<g ref="char:EOLhyphen"/>mies, Climbe upon her walles and deſtroy, downe with her battle<g ref="char:EOLhyphen"/>ments, for they are not the Lords:
+<hi>Ier.</hi> 5.10. And now our bloſſed Saviour as if he ſaw the wall (not of <hi>Hiericho,</hi> but) of Hieruſalem tumbling downe, the Souldiers on every ſide entring the City, beat<g ref="char:EOLhyphen"/>ing all downe before them, daſhing the young infants againſt the ſtones, torturing the aged and honourable, deflouring the modeſt Vir<g ref="char:EOLhyphen"/>gins and chaſte Matrons, ranſaking their houſes, with fire and Sword, laying Hieruſalem even with the ground, and her children within her, hee falls a weeping, he beheld the City and weptover it.</p>
+            <p>As indeed it was a lamentable ſight, the Lord in mercy grant wee never ſee ſuch a Spectacle in our Hieruſalem; no doubt, <hi>Abraham</hi> was affected with ſorrow, when he ſaw the ſmoake of <hi>Sodome</hi> aſcend like the ſmoke of a furnace, though <hi>Sodom</hi> was a neſt of infidels, children of <hi>Belial,</hi> whoſe ſins c<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ied up to heaven for vengeance,<note place="margin">
+                  <hi>Gen.</hi> 13: 13.</note> young and old from every quartet were gathered together about <hi>Lots</hi> doore, crou<g ref="char:EOLhyphen"/>ding and ſtriving who ſhould hee the foremoſt in that unnaturall and prodigious ſin, it cannot appeare that there was a Family or a Soule after <hi>Lot</hi> was gone, which were not all moſt notorious ſinners, and yet
+<pb n="29" facs="tcp:111314:15"/>it was a ſad ſpectacle, to ſee
+<hi>Sodom</hi> ſaid even with the ground, ſo in the 18. <hi>chap.</hi> of the revelation, <hi>verſ.</hi> 9 10. and ſo forward, tis prophe<g ref="char:EOLhyphen"/>cyed that the Kings of the earth, and the Merchants, and the Ship<g ref="char:EOLhyphen"/>maſters ſhall weepe bitterly for the deſtruction of Babylon, when they they ſhall ſee the ſmoak of her burning: alas, alas, that great City Ba<g ref="char:EOLhyphen"/>bylon, that mighty City, for in one houre is her judgement come, in one houre is ſo great riches come to nothing alas, alas that great Ci<g ref="char:EOLhyphen"/>ty! well then might our bleſſed Saviour weepe for Hieruſalem, where there was yet a Remnant according to the Election of grace, which were like to be involved in the common calamity, the righteous with the wicked, <hi>&amp; Templum Domini</hi> the Temple of the Lord together with their ſeiled houſes: O God the Heathen are come into thine inheri<g ref="char:EOLhyphen"/>tance, thy holy Temple have they defiled, and made Hieruſalem a heape of ſtones, the dead bodyes of thy Saints have they given to bee meat unto the foules of the ayre, and the fleſh of thy Servants, to the beaſts of the land, <hi>Pſ.</hi> 79.1.2. This made the Prophet <hi>Ieremy</hi> wiſh, Oh that my head were waters, and mine eyes a fountaine of teares, that I might weepe night and day for the ſlaine of the daughter of my peo<g ref="char:EOLhyphen"/>ple. <hi>I<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r.</hi> 9.1. this made our Saviour here, when he beheld the City, to weepe over it ſaying, if thou hadſt knowne &amp;c. for the dayes ſhall come that thy enemies ſhall caſt a trench about thee, and lay thee even with the ground and thy children within thee.</p>
+            <p>Beloved, our Saviours example muſt be our direction all along, he weepes for Hieruſalem, we muſt alſo weepe for the miſeries and deſo<g ref="char:EOLhyphen"/>lations of Hieruſalem, the Church and people of God abroad in the world, and for the miſeries that hang over our Hieruſalem, and threa<g ref="char:EOLhyphen"/>ten us with ruine, unleſſe God in mercy be pleaſed to open our eyes, that wee may at laſt be able to know, (that is to take notice of) the things that belong to our peace. And firſt the miſeries of the Church abroad call for our teares. Hieruſalems miſery here was but a comming [the dayes ſhall come] Chriſt ſaw the cloud ariſing, it was 40. yeares after before the ſtorme fell, and yet he could not forbeare weeping; how can we look upon the ruines of Hieruſalem, and other famous Churches with look upon the ruines of Hieruſalem, and other famous Churches with dry eyes? Thy Servants thinke upon her ſtones, and it pittieth them to ſee her in the duſt, ſaith the
+<hi>Pſalmiſt. Pſ.</hi> 10<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>.14. to ſee thornes come up in her palaces, Nettles and Brambles in her fortreſſes, that ſhe is become an habitation of Dragons, and a Court of Owles, a moſt forlorne deſolate place. <hi>Eſ.</hi> 34.13. the words which her enemies uttered in ſcorne, <hi>Lam.</hi> 2.15. we ſhould utter with teares, is this the beauty of perfection? the joy of the whole earth? alas, alas that great City. And who can ſufficiently bewaile the ſad deſolations of other Churches? when we call to mind the inroades, and incroachments that the wilde Bore of the Forreſt, the Turk hath made into Chriſtendome, and is daily threatning &amp; indevouring to ſwallow up more of it, to de<g ref="char:EOLhyphen"/>voure <hi>Iacob,</hi> &amp; lay waſte his dwelling place, to root out the Church and
+<pb n="27" facs="tcp:111314:15"/>people of God, that the name of Iſrael may he no more in re<g ref="char:EOLhyphen"/>membrance: and when we conſider, how that Skarlet whore of Rome hath made her ſelfe drunk with the bloud of the Saints. Rev. 17.6. Pitty the breaches of Bohemia, the Palatinate, Ger<g ref="char:EOLhyphen"/>many, &amp;c. Whoſe f need Cities (many of them) are turned into
+<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>inous heaps, laid even with the ground, and their fields wa<g ref="char:EOLhyphen"/>tered with the bloud of Chriſtians. Their bloud have they ſhed like water on every ſide of <hi>H<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>er ſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>em,</hi> and there was no man to bury them. Pſ.
+79.3. Pitty the ſad condit on of <hi>Ir<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>an,</hi> ſay with the Spouſe, Cant. 8.8. What ſhall we doe for our little Siſter? La<g ref="char:EOLhyphen"/>mentable are the ſcritches and complaints that have been heard out of that Kingdom, by reaſon of the fury of the oppreſſour; ſparing neither Age nor Sex, pillaging and firing and laying all even with the ground, where ever they prevayle: and is this nothing to you all ye that paſſe by? have ye no fellow-feeling of their miſeries? can ye for all this ſtretch your ſelves upon your beds of ivory, and eat the Lambs of the flock, and the Calves out of the ſtall, and drink your Wine in bowles, and chaunte it to the ſound of the Violl? and never conſider the afflictions of Joſeph? S. Paul commands us to weep with thoſe that weep, as
+<hi>N <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>imiah</hi> did for the miſeries of his Brethren at <hi>H<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eruſalem,</hi> when himſelfe was in proſperity in the Court of Ar<g ref="char:EOLhyphen"/>taxerxes: the Members of Chriſts myſticall Body, ſhould be like the members of a naturall body: where if one Member ſuf<g ref="char:EOLhyphen"/>fer, all the reſt ſuffer with it. 1 Cor. 12.26. Pitty then that bleed<g ref="char:EOLhyphen"/>ding Kingdom, pitty and pray for them, pitty and ſuccour them: firſt pitty and pray for them, importune and wraſtle with God in behalfe of that Kingdom by unceſſant and earneſt Prayer, let teares run down like a River night and day, give him no reſt till the Vengeance of the Proteſtants bloud that is ſhed be open<g ref="char:EOLhyphen"/>ly ſhewed upon their barbarous and cruell Enemies. Secondly, pitty and ſuccour them, let your aboundance now be a ſupply for their want, let England be to Ireland as a refuge from the ſtorm, as a ſhaddow from the heate, untill this Tyranny be o<g ref="char:EOLhyphen"/>verpaſt; there are a many poore diſtreſſed ſoules forced to for<g ref="char:EOLhyphen"/>ſake that Kingdom, and to ſlee hither for reliefe and ſome that had faire eſtates, till thoſe Sabaeans feazed upon them: it may be two bands with
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>acob, though they have brought nothing but a ſtaffe over Jordan with them, now if you will keep the faſt aright, that it may be an acceptable day unto the Lord, you muſt obſerve the Lords own directions. Eſ 58 7. Is not this the faſt that the Lord hath choſen: to deale thy bread to the hungry,
+<pb n="29" facs="tcp:111314:16"/> 
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="27" facs="tcp:111314:16"/> 
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="28" facs="tcp:111314:17"/>and that thou bring the poore that are caſt out into thy houſe the poore that are caſt out; as many of them have been caſt out of houſe and home,] and when thou ſeeſt the naked, that thou cover them, and for certain many of them have been ſtripped naked, not ſo much as their clothes left, to cover their nakednes, or to defend them againſt the injuries of the weather, fit objects of your pitty.</p>
+            <p>And while we remember <hi>Ireland</hi> and other Churches waſted with miſery we may not forget our ſelves, as our bleſſed Savi<g ref="char:EOLhyphen"/>our ad moniſhed the Women that bewayled him. Luc. 23.28. Weep for your ſelves ye Daughters of <hi>Hieru<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>al<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m,</hi> and for your Children; for the dayes are comming wherein they ſhall ſay, bleſſedare the barren, and the Wombes that nover bare, and the paps that never gave ſuck. Beloved for my own part, I am not privy to the decrees of Heaven, neither am I willing to preſage ruin to this
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>urch, either by the Sword, famin, or Peſtilence: long may ſhe ſlouriſh and continue to he the joy, and prayſe of the whole Earth, ev<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n ſo long as the Sun and Moone indureth, till Shiloh come to judgment. Yet I muſt tell you, firſt that it is poſſible, that this Church of ours may be diſchurched, our
+<hi>Hieruſalem</hi> be made a heap of ſtones, England may not ſay, as Da<g ref="char:EOLhyphen"/>vid ſometime did fooliſhly, Pſal. 30.6. I ſayd in my proſperity I ſhall never be removed, he was deceived [thou didſt turn thy face from me, and I was troubled] and ſo may we: nor with the malignant Church, Reva 8.7. I fit as a Queen and ſhall ſee no ſorrow: no, our Candle ſtick may be removed, our Vineyard that have been fenced ſo many yeares by the providence, and protection of the great Husbandman may have its hedge tr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>den down; there is no Church priviledged from drinking of the cup of Gods Wrath. Where is the King of Ham<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>th, and the King of Arpad and the King of Sepharuaim? as he ſayd, what is become of thoſe famous Eaſtern churches? thoſe golden Candleſticks? Epheſus, Smyrna, Pergamos, Thyatira, &amp;c. Nay <hi>Hieruſalem</hi> it ſelfe layd even with the ground, and that many hundred yeares agoe, and if God ſpared not the naturall branches, we have no reaſon to be high minded, but to feart: what ſaith God to the Na<g ref="char:EOLhyphen"/>tions? Jer. 25.29. Doe ye refuſe to drink of my Cup, behold I begin to bring evill upon the City that is called by my Name<g ref="char:punc">▪</g> you muſt not think to goe unpuniſhed; we muſt not expect more favour then the
+<hi>Ie<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>res</hi> found, admit we have <hi>Tamolum domius</hi> the Temple of the Lord, the Symbol of Gods preſence amongſt, us, ſo had they, we have many faithfull paſtors and teachers ac<g ref="char:EOLhyphen"/>cording
+<pb n="29" facs="tcp:111314:17"/>to Gods own heart, they had Prophets and Apoſtles, men extraordinarly inſpired, nay they had the Lord of the Pro<g ref="char:EOLhyphen"/>phets, we have the Word of God, had not they? the voyces of the Prophets were heard among them every Sab ath day. Acts 13.27. But we have Maunah in greater aboundance then they had, more plenty of preaching, our deſtruction may be the nea<g ref="char:EOLhyphen"/>rer for that, for our ſins will be the ſooner ripe, the hotter the Sun ſhines the ſooner the tares will be ripe, and ready for the ſire, but we have our monthly faſtes and dayes of humiliation, had not they? Zach. 7.5. When ye faſted in the fifth moneth, and in the ſeventh Moneth thoſe 70 yeares, did ye faſt unto me? all theſe proved vaine confidences to them, they could not keep off the ſtroke from them, and therefore notwithſtanding all theſe, it's poſſible that our Church may ſuffer as they did.</p>
+            <p>Nay I muſt goe one ſtep farther, It is not only poſſible, but it's probuble too, we have juſt cauſe to feare, that the time may come and ſpeedily to, wherein our Enemies may caſt a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>nch about us, and lay our <hi>Hieruſalem</hi> even with the ground becauſe the Leaven of the <hi>Iewes</hi> is unhappily fallen into the lump of the <hi>Gentiles,</hi> and the abominations that were committed in <hi>Hieruſalem,</hi> are flowen over into England, nay I feare our ſins doe outvy theirs all things confidered, as far as theirs outvied the ſins of Sodom. Ezech. 16. What ſin was ever charged upon
+<hi>Hieruſalent,</hi> that may not be ſampled in England? there was halting be<g ref="char:EOLhyphen"/>tween two opinions, hath there not been the like heere? 'twas yrkeſome to them to obſerve the Sabbath day ſtrictly and religi<g ref="char:EOLhyphen"/>ouſly, when will the new Moon be gone that we may ſell corn, and the Sabbath that we may ſet forth wheate. Am. 8.5. Tell me hath it not been ſo here? the Prophet Micah complaines of them for the ſcant meaſure, the wicked balances, and the bag of deceitfull weights, Mich. 6.10.11. Examin your ſhops, hath it not been ſo here? there were great corruptions both in the civill and Eccleſiaſticall ſtate: their Princes were rebellious and com<g ref="char:EOLhyphen"/>panions of theeves, that is, their magiſtrates did too much coun<g ref="char:EOLhyphen"/>tenance oppreſſion and in juſtice, and their Prieſts were many of them dumb dogs, lying down and loving to ſlumber, lazy watch<g ref="char:EOLhyphen"/>men that ſuffered the people to periſh for want of warning, Aarons Bels had loſt their clappers; beloved I appeale to you, have there not been ſuch faults in the Magiſtracy and Miniſtery of England, in ſome of each <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> their Land was greatly pol<g ref="char:EOLhyphen"/>luted with ſwearing and blaſpheming, becauſe of ſwearing the land mourneth. Jer. 23.10. And doth not our land, and this City
+<pb n="30" facs="tcp:111314:18"/>by name groan under this fin alſo? what hideous Oathes, and deſperate imprecations are heard in our ſtreets; They were ſtrong to drink ſtrong drink, and when they had ſate till the Wine inflamed them, then they aſſembled themſelves by troupes in the Harlots Houſes: and how doe theſe beaſtly ſins, of rioting and drunkenneſſe, of chambering &amp; wantonnes reign in this Kingdom, and more eſpecially in <hi>H<gap reason="illegible" resp="#PDCC" extent="6 letters">
+                     <desc>••••••</desc>
+                  </gap>
+               </hi> this populons City? in a word, ſhould a man be ſerious, and with Solomon Pro. 7.6. look out at the caſement of his window, and obſerve the behaviour of people in the ſtreets, he might behold not only the young wan<g ref="char:EOLhyphen"/>ton with his Minion marching along to the <hi>Ste<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>es.</hi> but alſo the angry Ruffian juſtling for the wall, t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e ſwiniſh drunkard ſtum<g ref="char:EOLhyphen"/>bling and tumbling in the mire, the hard-hearted Vſurer catch<g ref="char:EOLhyphen"/>ing his neighbour by the throate, and haling him to the priſon, the proud phantaſtick more gloriouſly arrayed then Solomon in all his royalty, and heare ſuch vaine bablings<g ref="char:punc">▪</g> ſuch proud boaſtings, ſuch clamorous raylings, ſuch curſed blaſphemies, as might make him not only to weep: but alſo to wonder at the patience of God, that he hath not long before this time made London like <hi>Hieruſalem</hi> a heap of ſtones. In the ſecond Chapter of the <hi>R<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> (Chriſt threatens the Aſian Churches to remove their Candleſticks, becauſe he
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ad ſomewhat, or a few things againſt them, nevertheleſſe I have a few things againſt thee, remember therefore from whence thou art fallen, and repent, or elſe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> will remove thy Candleſtick out of his place, and alas, beloved 'tis not a few things that God hath againſt us, we have walked contrary to him in every thing, what may wee feare?</p>
+            <p>I will but touch upon two or three of <hi>Hieruſalems</hi> latter ſins, and leave you to judge whether we have not overtaken hereven in them. One was her diſreſpect, her cruelty to the Lords Pro<g ref="char:EOLhyphen"/>phets, Math
+23.37 O <hi>Hieruſalem, Hieruſalem</hi> that killeſt the Prophets, and ſtoneſt them that are font unto thee, &amp;c. And Ver. 34. Behold
+<gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſend unto you Prophets and wiſe men and ſcribes, and ſome of them ye ſhall kill and crucify, and ſome of them you ſhall ſcourge in your Synagogues, and perſecute them from City to City, That upon you may come all the righteous bloud ſhed upon the Earth, from the bloud of Abel, to the bloud of Zacha<g ref="char:EOLhyphen"/>rias the Son of Barachias, whom yee ſlew between the Temple, and the Altar; they counted them their Enemies for telling them the truth, they hated the light becauſe their deeds were evill, and believe it, this is a provoking ſin; touch not mine an<g ref="char:EOLhyphen"/>noynted
+<pb n="31" facs="tcp:111314:18"/>and doe my Prophets no harme, and as he that receives a Prophet in the name of a Pr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>phet, ſhall receive a Prophets reward,
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o he tha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> contemnes and abuſeth a Prophet, one of Go<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s meſſengers and Embaſſadors, Chriſt tells him <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. it ſhall be more tolerable for Sodom and Gomorrha at the day of judgment,
+<gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> then for that party, or that City, (if it be a City) Matth. 10.15. And yet beloved, we cannot hide it, England <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s in a high degree guilty of this ſin, the Prophets of the Lord, the moſt zealous, painfull, learned Miniſters have been too much ſlighted<g ref="char:punc">▪</g> oppoſed, derided and at this day the moſt ſolid ju<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ious Divines about this City are trampled upon with durty feet, vilified, pointed at, loaden with infamous nick-names, as Baals Prieſts, Popi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>h teachers, Limbes of Antichriſt, wofull to relate, and I wonder how any man, that beare<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> but the name of a Ch iſtian, dares vent ſuch unſavoury, invective ſpeeches againſt their Teachers<g ref="char:punc">▪</g> and that it may be for diſſenting from them only in the uſe of a harmeleſſe, ſignificant Ceremony. You know what happened to
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eroboam for ſtretching out his hand againſt the Prophet though he were a King. 1. Reg. 13.4. And you remember the ſeverity of Gods Anger. againſt the young children for mocking the Prophet Eliſhah, goe up thou bald head, goe up thou bald-head, 'tis recorded that 42 of them were preſently torn in<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ic<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s. 2. Reg. 2.24. Doth. God pu<g ref="char:EOLhyphen"/>niſh fooliſh wanton children for ſuch a fault? think not that thoſe of riper yeares ſhall eſcape; this was the Bane of <hi>Hieru<g ref="char:EOLhyphen"/>ſale<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> once before, 2 Chron. 36.16. They mocked the Meſſen<g ref="char:EOLhyphen"/>gers of the Lord, and miſuſed his Prophets, untill the wrath of the Lord ar<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſe againſt his people, till there was no remedy, ther fore he brought upon them the King of the <hi>C<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>dees,</hi> who ſlew their young men with the Sword; here 'twas their bane again, 'twas one of thoſe ſins that armed the Romans againſt them, and I pray God it doe not help to bane this City, Lord lay not this ſin to our charge.</p>
+            <p>Another of <hi>Hieruſalems</hi> latter ſins was their irreverent pro<g ref="char:EOLhyphen"/>phanations of Gods Temple, they put no difference between that ſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>cred place, ſet apart for the worſhip and ſervice of God; [My Houſe ſhall be called the Houſe of Prayer] and other ordinary places: they carried burdens therough it, they bought and ſold in the outward Court of it, till Chriſt forbad them. Take theſe things hence <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> make not my Fathers Houſe, a Houſe of merchandize. Beloved I muſt be plain with you, we are too much guilty of this ſin alſo, there is a vile irreverent eſteem
+<pb n="32" facs="tcp:111314:19"/>of Gods Houſe in the hearts of too many amongſt us, and out of the aboundance of the heart the mouth ſpeaketh, words which I am almoſt aſhamed, and afrayed to repeate: that the Church is no better then an Ale-Houſe or a Tavern, nay then a Bawdyhouſe, I heard it ſpoken; prophane wretches, the <hi>Iewes</hi> came not nea<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e theſe, and yet Chriſt ſwitched them out with a whip of ſmall cords, <hi>Huic aliud mercedi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> erit</hi>—I feare theſe will be beaten with many ſtripes, heavy ſtrokes, there is a golden meane (if we could light on it) between idolizing of a Temple, and vilifying of it, between doing reverence to it, and irreve<g ref="char:EOLhyphen"/>rent prophaning of it; We have warnings enow to look to our feet when we come to the Houſe of the Lord; you know what a breach was made upon Vzzah, for a ſmall miſcarriage (as is may be conceived) about the Arke, and how many thou<g ref="char:EOLhyphen"/>ſands of the Bethſhemites were cut off, for prying irreverent<g ref="char:EOLhyphen"/>ly into the Arke, I am ſure Chriſt never expreſt more anger then in that paſſage about his Fathers Houſe, and I doe believe 'twas one of the ſins that brought this judgment upon
+<hi>Hieru<g ref="char:EOLhyphen"/>ſalem<g ref="char:punc">▪</g>
+               </hi> for you ſhall read in the verſe after m<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Text. Ver. 45. That as ſoon as he had uttered this complaint. If thou hadſt I known even thou in this thy day, &amp;c. He preſently went into the Temple, and caſt out them that ſold therein, and them that bought, ſaying, it is, written my Houſe ſhall be called the houſe of Prayer, but ye have made it a den of thieves, and Lord lay not this ſin to our charge.</p>
+            <p>A third ſin of <hi>Hieruſalem</hi> in her declining are was the Sects and diviſions that were among them, we read of Phariſees and Sadduces, and ſome other Sects that they were rent and divi<g ref="char:EOLhyphen"/>ded into, what a tumult and an outcry there was between the Phariſes and the Sadduces? Acts
+23. The Captaine was affraid leaſt Paul ſhould have been
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>orne 2. peices by them, they were ſo violent; And beloved, are not we conſcious to our ſelves of this ſin alſo? fractions and diviſions? it is a queſtion not eaſily anſwered, whether there be more Sects or wards in London, and what tumults have been occaſioned by theſe Sects and ſi<g ref="char:EOLhyphen"/>dings? not only in the ſ<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ee<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s, but even in the Houſe of God? what ſhoutings and clamours? to the diſhonour of God, and the diſturbance of the Congregation? Lord lay not this ſin to our charge. Oh that we would take out that golden Leſſon of the Apoſtle. To keep the unity of the ſpirit in the bond of peace, that we would give credit to that undeniable ſailing of our Sa<g ref="char:EOLhyphen"/>vious, A Kingdom or a City, or a Houſe divided againſt it ſelfe
+<pb n="33" facs="tcp:111314:19"/>cannot ſtand; there was a time when
+<hi>Hieruſalem</hi> was at unity within it ſelfe, Pſal. 122.9. And then ſhe was not aſhamed to ſpeak with her Enemies in the gate, but now being at cry<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>l jarres and diſſenſions among themſelves, they become a prey to the Romans; neither could their private differences be com<g ref="char:EOLhyphen"/>poſed, till the Enemy took away both their lives and their li<g ref="char:EOLhyphen"/>vings, and made <hi>Hieruſalem
+<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>celdana<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> a field of blood. —
+<hi>Enquo diſco<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>dia cives p<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rduxit
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>niſ<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>os.</hi> And God grant this ſin of
+<hi>Hieruſalem</hi> doe not bring <hi>Hieruſalems</hi> puniſhment upon us, that our private diſ<g ref="char:EOLhyphen"/>ſenſions doe not incourage and give opportunity to the com<g ref="char:EOLhyphen"/>mon Enemy to caſt a trench about us, you ſee
+<hi>Hieruſalems</hi> ſins are come over into England, and therefore it's too too probable that her puniſhment may follow. For the dayes ſhall come that thy Enemies ſhall caſt a trench about thee, and lay thee even with the ground, &amp;c.</p>
+            <p>But that my Sun may not ſit in a cloud, I ſhall ad one word more, that though it be poſſible, nay though it be probable (the premiſſes conſidered) that the Sword may come, yet it is not neceſſary, there is mercy with the Lord that he may be feared, <hi>No<gap reason="illegible" resp="#PDCC" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>e am<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>v<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>, ſed <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>iteatiam,</hi> God is infinitely more delighted in the converſion, then in the confuſion of a ſinner, why will ye dye O houſe off Iſrael? turn ye, turne ye from your evill way, break off your ſins by repentance, and live: he that confeſſeth and forſaketh his ſins ſhall have mercy. Proverbs 28.13. Con<g ref="char:EOLhyphen"/>feſſion and converſion; or humiliation ſeconded with refor<g ref="char:EOLhyphen"/>mation hath ſometimes reverſed the ſentence that hath gone out againſt a Nation, as in the caſe of Niniveh, yet forty dayes and Niniveh ſhall be deſtroyed, Niniveh in the meane time repents of the evill ſhe hath committed, and God repents alſo of the evill he hath intended: had <hi>Hieruſalem</hi> done ſo too, had <hi>Hieruſalem</hi> known the things that belonged to her peace, <hi>Ilia nunc ſtaront, Priamique urbs alta man<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ret,</hi> for ought we know it might have ſtood until this day: Niniveh had but forty dayes, <hi>Hieru<g ref="char:EOLhyphen"/>ſalem</hi> had forty yeares reſpit to repent in, and to make her peace: So I ſay now, if we ſhall, even we in this our day labour to make our peace, and attonement with God (whom we have of<g ref="char:EOLhyphen"/>fended) by diſcerning and lamenting all our former tranſgreſ<g ref="char:EOLhyphen"/>ſions, by reſolving and indeavouring to walke more circum<g ref="char:EOLhyphen"/>ſpectly for the time to come, to walke worthy of thoſe great mercies which we injoy, to bring foorth fruits meet for re<g ref="char:EOLhyphen"/>pentance, no doubt, he will accept of us ſtill, and receive us in<g ref="char:EOLhyphen"/>to favour againe; what elſe is the meaning of thoſe Parables
+<gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+               <pb n="34" facs="tcp:111314:20"/>Luc. 15. Of the Woman rejoycing with her Neighbours when ſhee had found her loſt Groate, of the Shepheards hug<g ref="char:EOLhyphen"/>ging this ſtray Sheep, and bringing it home with joy, of the Father welcomming and embracing his prodigall Sonne upon his ſubmiſſion, but to intimate unto us the will <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>gneſſe of Al<g ref="char:EOLhyphen"/>mighty GOD to be reconciled unto ſinners, upon their true Repentance; the Father doth not queſtion with his Sonne, <hi>Vbi fuiſl<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>?
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ub<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t
+<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>e tuliſti<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>?</hi> ſaith Chryſologus, where ha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e you been? What is become of all that portion you carried hence? how is it that you are returned thus poore, thus na<g ref="char:EOLhyphen"/>ked? but he cals for the beſt Robe, and Shooes for his Feete, and a Ring for his finger, &amp;c. <hi>Quis i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> P<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r</hi> (ſaith Tertulli<g ref="char:EOLhyphen"/>an ſweetly) who is this Father? that ſo lovingly entertaines his penitent Sonne? who is this Father? <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ſcilicet,</hi> God is this Father, we are theſe Prodigals, let his enterteinment incourage us to returne; to acknowledge our own vileneſſe
+[Fa<g ref="char:EOLhyphen"/>ther we have ſinned againſt Heaven, and in thy ſight, and are no more worthy to be called thy Children] and he will re<g ref="char:EOLhyphen"/>ceive us graciouſly, a broken and a contrite heart he can not, he will not deſpiſe; <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ri<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> no<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> poteſt<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> ſiliv<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> iſtarum l<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>chry<g ref="char:EOLhyphen"/>marum
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>percat<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</hi> ſaid Saint Ambroſe to Monica bewayling her Sonne Auſtin: be of good cheere Woman, it cannot be that the Sonne for whom thou dayly ſheddeſt ſo many Teares ſhould periſh, ſo I dare ſay to every Soule that bedewes it ſelfe with the Teares of true Repentance: <hi>Fieri non poi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſt ut a<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>,
+<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>a iſtarum la<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>rymarum pereat,</hi> it cannot be that the Soule for which ſo many Teares are ſhed ſhould periſh; it is a ground<g ref="char:EOLhyphen"/>leſſe expoſtulation that is taken up by them Malac, 3.<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>4. What profit is it that we have walked mournfully before the Lord of Hoſtes? I anſwer very great profit, for theſe Teares il they proceede f<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>om a truly broken and contrite heart, they will prove like Sauls Sword, or lonathans Bow, they will never returne empty, not one of theſe Criſtalline Pearles fal's to the ground, God puts them all into his Bottell. Pſalme 56.8. See how it fared with good Hezechiah. Eſay
+38.1 The Prophet is ſort to acquaint him that the time of his diſſoluti<g ref="char:EOLhyphen"/>on is at hand; Set thy Houſe in order, for thou ſhalt dye, and (believe it) Death is a grimme Surjeant that will not eaſi<g ref="char:EOLhyphen"/>ly be ſtaved off, however the good man betakes himſelfe to his Prayers, and mingles ſome
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eares with his Prayers, and ſee what this produceth Verſe 5. Thus ſaith the Lord I have heard thy Prayers, I have ſeen thy Teares; I will adde unto
+<pb n="35" facs="tcp:111314:20"/>thy dayes fifteene yeares, and I will deliver thee and this Ci<g ref="char:EOLhyphen"/>ty out of the hand of the King of Aſſyria. I need not tell you that are Parents, how far the Teares of your children will plead and prevaile with you, though you be much offended, and what ſaith the Pſalmiſt? Pſal. 103.13. Like as a Father pittieth his own children, ſo is the Lord mercifull to his chil<g ref="char:EOLhyphen"/>dren, when his anger is kindled againſt them their Teares will ſoon quench it again, look in the 31. of <hi>Ieremy Verſe</hi> 18. There you ſhall finde a breach between God and Ephraim, Ephraim is ſtubburn, God is angry at it, and begins to correct him, Ephraim feeling it ſmart fals a weeping: he repents and ſmites upon his thigh
+<hi>Verſe</hi> 19. And God preſently takes notice of it. I have ſurely heard Ephraim bemoaning himſelfe, and what followes at the 20.
+<hi>Verſe?</hi> Is Ephraim my deare Sonne? Is he a pleaſant child? for ſince I ſpake againſt him, I doe earneſtly remember him ſtill, therefore my bowels are trou<g ref="char:EOLhyphen"/>bled for him, I will ſurely have mercy upon him, ſaith the Lord, I can be no longer angry with him, ſaith God, now I ſee him weep, my bowels doe even yearne towards him, I will ſurely have mercy upon him, &amp;c. It puts me in mind of that ſtory of Eſau.
+<hi>Geneſis</hi> 27. He brings in his veniſon and comes very confidently to his Father for a bleſſing before his Death: the dimme old man amazed, and perceiving at laſt how he was deluded (for Jacob had cunningly ſupplanted him, you know the ſtory) he tells him that he was come too late, Thy brother came with ſubtilty and hath taken away thy bleſſing. <hi>Verſe</hi> 35. With that he falles a begging and complayning, and is very importunate; Haſt thou not reſerved a bleſſing for me? bleſſe me, even me alſo, O my Father: Iſaac tels him, I have given all his brethren to him for ſervants, I have given him Corn and Wine to ſuſtayne him, what can I doe for thee my Sonne? Haſt thou but one bleſſing my Father? ſaith Eſau, bleſſe me even me alſo; and Eſau lift up his voyce and wept, <hi>Verſe</hi> 38. And thoſe Teares fetched a bleſſing preſently: his Father anſwered, Thy dwelling ſhall be the fatneſſe of the Earth, and the dew of Heaven from above, and thou ſhalt, ſerve thy Brother, and it ſhall come to paſſe, that in proceſſe of time thou ſhalt breake his yoke from off thy necke, &amp;c. Teares are lowde Oratours with an Earthly Father, much more with our Heavenly Father, becauſe hee is infinitely more pittifull then any Earthly Father: If you beeing evill know how to give good gifts to your children, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+               <pb n="36" facs="tcp:111314:21"/>how much more ſhall your Heavenly Father? Matthew 7.11. If you that have but a Rivulet of mercy bee ſo moved with Teares, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> how much more will your Hea<g ref="char:EOLhyphen"/>venly Father? who hath a boundleſſe, bottomleſſe Ocean of mercie?</p>
+            <p>Wee may bee the more confident, that the Teares which we ſhed upon Earth are regarded in Heaven, becauſe (as the Apoſtle ſpeakes) wee have a mercifull high Prieſt there, <hi>Hebrewes</hi> 4.15. For wee have not a high Prieſt that cannot be touched with the feelings of our infirmities, but was in all points tempted like unto us, ſinne onely excepted; Chriſt tooke not on him our nature onely, a reaſonable Soule and humane fleſh, but alſo condeſcended to take on him the infirmities of our nature, the infirmities of the body, as to be hungry, to be thirſty, to ſleepe, to be weary; and the infirmities of the minde, as to be angry, to be ſad, to weepe, &amp;c. Chriſt hath beene experimentall in all theſe, hee hath taſted of every one of theſe Cups, and therefore knowes how to pitty, and to ſuccour thoſe that labour under any of theſe infirmities: are wee ſorrowfull? ſo hath CHRIST beene, a man of ſorrowes and acquainted with griefe; doe wee weepe? ſo did Chriſt, hee beheld the City and wept over it, and though hee doe not weepe for our Hieruſalem, yet hee is ſenſible of our weeping, and makes interceſſion for us at the right Hand of his Father; and therefore heere is a great deale of comfort to thoſe that mourne in Sion, and a great deale of incouragement to thoſe that have not yet beene Mourners, if they ſhall now at length ſee the errour of their wayes, and beginne to weepe for the abominations of Hieruſalem.</p>
+            <p>Let us therefore all of us awake betimes out of our ſinnes, before that vengeance awake, and the judgement which yet ſleepeth; ſeeke the Lord while hee may bee found, whileſt with the Father of the Prodigall hee is ready to meete us, and to embrace us, let us turne to him with all our hearts, with faſting and with weeping, and with mourning, there is
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oy in the preſence of the Angels over one ſinner what joy will there bee over a whole Nation that repen<g ref="char:EOLhyphen"/>teth?<note place="margin">Luc. 15.10.</note> while God holdes his peace
+[theſe things haſt thou <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oue, and I held my peace, Pſalme 50.21.] Let us ſpeake
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd ſue unto him for mercy, and ſay, ſpare us good Lord,
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>pare thy people whom thou haſt redeemed with thy
+<pb n="37" facs="tcp:111314:21"/>moſt precious bloud, and bee not angry with us for ever; And let the Prieſts, the Miniſters of the Lord, weepe bet<g ref="char:EOLhyphen"/>weene the Porch and the Altar, and ſay, be favourable, O Lord, and give not thine heritage to reproach.<note place="margin">Joel. 2.17.</note> Wherefore ſhould they ſay among the Heathen, where is now their God?</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="errata">
+            <pb facs="tcp:111314:22"/>
+            <head>Errata.</head>
+            <p>PAge. 1. lin. 15. for aſſad reade, aſſaied. p. 3. l. 2. for eſtaliſh reade eſta<g ref="char:EOLhyphen"/>bliſh. p. 8. l. 2. for of death, read of her death. p. 9. l. 2. for ale read. able. p. 9. l. 25. for finde read feede. p.
+12. l. 43. for Dayſar read dayſtar. p. 13. 12. for did not knew his people, read, did not know, his people p. 14. 20. for it read them. p. 20. l. 33. for Domini read<g ref="char:punc">▪</g> Domine p. 21. l. 31. which in his own mouth, deleatur, in. l.
+33. for theſe read the p. 27. l. 9. for Irelan read Ireland. p. 28. l. 26. for have read hath. p. 34. for this read his.</p>
+            <pb facs="tcp:111314:22"/>
+         </div>
+      </back>
+   </text>
+</TEI>
